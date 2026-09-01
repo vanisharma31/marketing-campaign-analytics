@@ -1,4 +1,3 @@
-# 🧾 Marketing Campaign Analytics
 
 # 📊 Marketing Campaign & Customer Sentiment Analysis
 
@@ -168,4 +167,11 @@ marketing-campaign-analytics/
     ├── conversion_details.png
     ├── social_media_details.png
     └── customer_review_details.png
+
+<h2><a class="anchor" id="author- &amp;-contact"></a>Author &amp; Contact</h2>
+
+**Vani Sharma**   
+Data Analyst  
+📧 Email: vanisharma2014@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/vani-sharma-82a790221/)
 
