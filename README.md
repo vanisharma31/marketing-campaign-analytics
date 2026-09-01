@@ -1,8 +1,17 @@
 # 🧾 Marketing Campaign Analytics
 
-<h2><a class="anchor" id="overview"></a>Overview</h2>
-<h2><a class="anchor" id="overview"></a>Overview</h2>
-*Analyzed financial transaction data to evaluate customer spending, financial profiles and transaction behavior, with a focus on identifying valuable customer segments and understanding customer activity. Used SQL to build customer-level metrics, segmentation, CLV, spending and acquisition analyses and Power BI to visualize the findings through an interactive analytics dashboard.*
+## 📌 Project Overview
+
+Marketing performance can look strong at the surface while underlying engagement and conversion metrics tell a different story.
+
+This project analyzes marketing campaign performance, customer engagement, and customer feedback to understand:
+
+- What is driving changes in conversion rates?
+- Which periods and products perform better?
+- How is customer engagement changing over time?
+- Which content types generate the most visibility?
+- What does customer feedback reveal about satisfaction?
+- What actions could improve marketing effectiveness and customer experience?
 
 ![overview](Screenshots/overview.png)
 
