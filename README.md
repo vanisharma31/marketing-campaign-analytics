@@ -1,8 +1,8 @@
-# 🧾 Financial Transaction Customer Analytics
+# 🧾 Marketing Campaign Analytics
 
 *Analyzed financial transaction data to evaluate customer spending, financial profiles and transaction behavior, with a focus on identifying valuable customer segments and understanding customer activity. Used SQL to build customer-level metrics, segmentation, CLV, spending and acquisition analyses and Power BI to visualize the findings through an interactive analytics dashboard.*
 
-![Executive Dashboard](Screenshots/executive_dashboard.png)
+![overview](Screenshots/overview_dashboard.png)
 
 
 
