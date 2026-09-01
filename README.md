@@ -118,71 +118,28 @@ This project uses a comprehensive financial dataset containing transaction recor
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
 ```
-financial-transaction-analysis/
-
+marketing-campaign-analytics/
 │
-
-├── Dataset/
-
-│   ├── users\_data.csv
-
-│   ├── cards\_data.csv
-
-│   └── transactions\_data.csv
-
+├── README.md
 │
-
-├── SQL Scripts/
-
-│   ├── 01\_Load\_Dataset.sql
-
-│   ├── 02\_Exploratory\_Data\_Analysis.sql
-
-│   ├── 03\_Customer\_Demographics.sql
-
-│   ├── 04\_Spending\_Analysis.sql
-
-│   ├── 05\_Customer\_Segmentation.sql
-
-│   ├── 06\_Customer\_Lifetime\_Value.sql
-
-│   ├── 07\_Customer\_Behaviour.sql
-
-│   ├── 08\_Customer\_Preferences\_Recommendations.sql
-
-│   ├── 09\_Churn\_Analysis.sql
-
-│   ├── 10\_Customer\_Acquisition.sql
-
-│   ├── 11\_Business\_KPIs.sql
-
-│   ├── 12\_Views.sql
-
-│   └── 13\_Stored\_Procedures.sql
-
+├── sql/
+│   └── cleaning_data.sql
 │
-
-├── PowerBI/
-
-│   ├── Dashboard.pdf
-
+├── python/
+│   └── sentiment_analysis.py
 │
-
-├── Screenshots/
-
-│   ├── Executive_Dashboard.png
-
-│   ├── Customer_Profile.png
-
-│   ├── Spending_Analysis.png
-
-│   ├── Customer_Insights.png
-
-│   └── Churn_Acquisition.png
-
-│ 
-
-└── README.md
+├── data/
+│   └── fact_customer_reviews_with_sentiment.csv
+│
+├── dashboard/
+│   ├── dashboard.pbix
+│   └── dashboard.pdf
+│
+└── Screenshots/
+    ├── overview.png
+    ├── conversion_details.png
+    ├── social_media_details.png
+    └── customer_review_details.png
 
 
 
