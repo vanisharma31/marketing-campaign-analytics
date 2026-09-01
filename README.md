@@ -1,5 +1,7 @@
 # 🧾 Marketing Campaign Analytics
 
+<h2><a class="anchor" id="overview"></a>Overview</h2>
+<h2><a class="anchor" id="overview"></a>Overview</h2>
 *Analyzed financial transaction data to evaluate customer spending, financial profiles and transaction behavior, with a focus on identifying valuable customer segments and understanding customer activity. Used SQL to build customer-level metrics, segmentation, CLV, spending and acquisition analyses and Power BI to visualize the findings through an interactive analytics dashboard.*
 
 ![overview](Screenshots/overview.png)
@@ -22,11 +24,7 @@
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
-Financial institutions generate large volumes of customer transactions every day. Analyzing this data can reveal spending patterns, customer value, segment characteristics and changes in customer activity that support better retention and growth strategies.
 
-This project analyzes customer, card and transaction data using SQL and Power BI, covering customer demographics, spending behavior, segmentation, Customer Lifetime Value (CLV), customer acquisition and churn-risk analysis.
-
-The analysis develops customer-level metrics for spending, transaction behavior, segmentation, CLV, rankings and activity, which are brought together in a five-page Power BI dashboard covering Executive Performance, Customer Profile, Spending Analysis, Customer Insights and Churn & Acquisition.
 
 
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
