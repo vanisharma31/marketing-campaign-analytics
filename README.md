@@ -1,8 +1,11 @@
 # 🧾 Marketing Campaign Analytics
 
-### 📌 Project Overview
+# 📊 Marketing Campaign & Customer Sentiment Analysis
+
+## 📌 Project Overview
 
 Marketing performance can look strong at the surface while underlying engagement and conversion metrics tell a different story.
+![overview](Screenshots/overview.png)
 
 This project analyzes marketing campaign performance, customer engagement, and customer feedback to understand:
 
@@ -13,118 +16,136 @@ This project analyzes marketing campaign performance, customer engagement, and c
 - What does customer feedback reveal about satisfaction?
 - What actions could improve marketing effectiveness and customer experience?
 
-![overview](Screenshots/overview.png)
+---
 
+## 🎯 Business Objectives
 
+### Increase Conversion Rates
+Identify factors affecting conversion performance and uncover periods, products, and opportunities with stronger conversion potential.
 
-## 📌 Table of Contents
+### Enhance Customer Engagement
+Analyze views, clicks, likes, and content performance to understand changes in audience engagement.
 
-* <a href="#overview">Overview</a>
-* <a href="#business-problem">Business Problem</a>
-* <a href="#dataset">Dataset</a>
-* <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
-* <a href="#project-structure">Project Structure</a>
-* <a href="#data-cleaning--preparation">Data Cleaning \& Preparation</a>
-* <a href="#analysis- &amp;-key-findings">Analysis \& Key Findings</a>
-* <a href="#power-bi-dashboards">Power BI Dashboards</a>
-* <a href="#final-recommendations">Final Recommendations</a>
-* <a href="#author- &amp;-contact">Author \& Contact</a>
+### Improve Customer Feedback
+Analyze customer ratings and review sentiment to identify areas of satisfaction and potential improvement.
 
+---
 
-<h2><a class="anchor" id="overview"></a>Overview</h2>
+## 🔄 Approach
 
+The analysis follows a **SQL → Python → Power BI** workflow.
 
+### 1. SQL — Data Preparation & Analysis
 
+Used SQL to:
 
-<h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
+- Clean and transform the marketing and customer review data
+- Prepare data for analysis
+- Analyze campaign and conversion performance
+- Create the required analytical dataset
 
-- Identify high-value customers
-- Understand spending behavior
-- Segment customers
-- Analyze CLV
-- Evaluate customer activity/churn risk
-- Analyze acquisition
-- Monitor business KPIs
+### 2. Python — Sentiment Analysis
 
-<h2><a class="anchor" id="dataset"></a>Dataset</h2>
-This project uses a comprehensive financial dataset containing transaction records, customer information and card data from a banking institution spanning the 2010s.
+Used Python and NLP techniques to:
 
-1\. <strong>User Data</strong>
+- Process customer reviews
+- Perform sentiment classification
+- Identify positive, negative, neutral, and mixed feedback
+- Generate a processed dataset for further analysis
 
-&#x20;  Contains customer demographic and financial information.
+### 3. Power BI — Dashboard & Insights
 
-&#x20;  Columns
+Built an interactive Power BI dashboard to analyze:
 
-* id
-* current\_age
-* retirement\_age
-* birth\_year
-* birth\_month
-* gender
-* address
-* per\_capita\_income
-* yearly\_income
-* total\_debt
-* credit\_score
-* num\_credit\_cards
+- Conversion performance
+- Product-level conversion rates
+- Social media engagement
+- Content performance
+- Customer ratings
+- Customer sentiment
 
+---
 
+## 📈 Key Findings
 
-2\. <strong>Card Data</strong>
+### Conversion Performance
 
-&#x20;  Contains customer card and account information.
+- The overall conversion rate was **8.5%**.
+- Conversion performance varied significantly throughout the year, reaching a high of **18.5% in January** and falling to **4.3% in May**.
+- Several product categories showed considerably stronger conversion rates, including **Kayak, Ski Boots, and Surfboard**.
+- The variation across months suggests opportunities to align promotions and campaigns with periods of stronger customer demand.
 
-&#x20;  Columns
+### Customer Engagement
 
-* id
-* client\_id
-* card\_brand
-* card\_type
-* card\_number
-* expires
-* cvv
-* has\_chip
-* num\_cards\_issued
-* credit\_limit	
-* acct\_open\_date
-* year\_pin\_last\_changed
-* card\_on\_dark\_web
+- Total views reached approximately **2.98M**, compared with **458K clicks** and **73.6K likes**.
+- Views showed a declining trend during the later months of the year, particularly from August onward.
+- Blog content generated strong visibility in several months, while social media and video content contributed to overall engagement.
+- The relatively low number of clicks and likes compared with views suggests an opportunity to strengthen calls-to-action and create more interactive content.
 
+### Customer Feedback
 
+- Customer reviews had an average rating of **3.7/5**.
+- **4-star (140)** and **5-star (135)** reviews represented the largest share of ratings.
+- Sentiment analysis identified **275 positive reviews**, while **82 reviews were classified as negative**.
+- Mixed and negative feedback highlights opportunities to identify recurring customer concerns and improve the overall customer experience.
 
-3\. <strong>Transaction Data</strong>
+---
 
-&#x20;  Contains transaction-level information.
+## 💡 Recommendations
 
-&#x20;  Columns
+### Improve Conversion Rates
 
-* id
-* date	
-* client\_id
-* card\_id
-* amount
-* use\_chip
-* merchant\_id	
-* merchant\_city
-* merchant\_state
-* zip
-* mcc
-* errors
+- Focus marketing efforts on high-performing product categories such as Kayaks, Ski Boots, and Baseball Gloves.
+- Use seasonal promotions and targeted campaigns during historically stronger conversion periods.
+- Investigate the causes of low-conversion periods such as May and optimize campaign strategy accordingly.
 
+### Increase Customer Engagement
 
+- Refresh content strategy as views decline during the later months.
+- Experiment with more interactive formats, including video and user-generated content.
+- Strengthen calls-to-action across social media and blog content to convert views into meaningful interactions.
 
+### Improve Customer Satisfaction
 
-<h2><a class="anchor" id="tools- &amp;-technologies"></a>Tools &amp; Technologies</h2>
+- Analyze recurring themes within mixed and negative reviews.
+- Use customer feedback to identify product or service issues.
+- Establish a feedback loop to address recurring concerns and encourage dissatisfied customers to re-engage.
+- Target an improvement in the average customer rating from **3.7 toward 4.0+**.
 
-* SQL
-* Python
-* Power BI 
-* Git & GitHub
+---
 
+## 📊 Dashboard
 
-<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
+### Overview
 
-```
+![Overview](Screenshots/overview.png)
+
+### Conversion Analysis
+
+![Conversion Details](Screenshots/conversion_details.png)
+
+### Social Media Analysis
+
+![Social Media Details](Screenshots/social_media_details.png)
+
+### Customer Review Analysis
+
+![Customer Review Details](Screenshots/customer_review_details.png)
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **SQL** — Data cleaning, transformation & analysis
+- **Python** — NLP & sentiment analysis
+- **Power BI** — Data visualization & dashboard development
+- **CSV** — Processed analytical dataset
+
+---
+
+## 📁 Project Structure
+
+```text
 marketing-campaign-analytics/
 │
 ├── README.md
@@ -147,171 +168,4 @@ marketing-campaign-analytics/
     ├── conversion_details.png
     ├── social_media_details.png
     └── customer_review_details.png
-
-
-
-```
-
-
-<h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning &amp; Preparation</h2>
-
-- Standardized date, numeric and text fields for consistent analysis.
-- Handled NULL, blank and invalid values and checked for duplicate records.
-- Validated relationships across customer, card and transaction data.
-- Created analytical SQL views to prepare the data for Power BI.
-
-
-<h2><a class="anchor" id="analysis- &amp;-key-findings"></a>Analysis &amp; Key Findings</h2>
-
-<p>The analysis provides insights into customer demographics, spending behavior, customer value, segmentation, churn and overall business performance.</p>
-
-<strong>Customer Demographics</strong> 
-* Analyzed customer demographics including age, gender, annual income, debt and credit score.
-* The average annual income was 45,313.31, with an average credit score of 709.73.
-
-<strong>Spending Analysis</strong> 
-* Analyzed spending trends across customers using transaction history.
-* The dataset includes 1,131 customers with a total spending of 45,902,152.78.
-* The average transaction value was 46.77.
-
-<strong>Customer Segmentation</strong>
-* Customers were segmented based on income, spending, debt and credit score.
-<table>
-  <thead>
-    <tr>
-      <th>Customer Segment</th>
-      <th>Description</th>
-      <th>Percentage</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>VIP</td>
-      <td>High Income + High Spending</td>
-      <td>2.30%</td>
-    </tr>
-    <tr>
-      <td>Premium</td>
-      <td>Good Credit Score + High Spending</td>
-      <td>15.74%</td>
-    </tr>
-    <tr>
-      <td>Regular</td>
-      <td>Average Spending Customers</td>
-      <td>74.54%</td>
-    </tr>
-    <tr>
-      <td>Budget</td>
-      <td>Low Spending Customers</td>
-      <td>3.36%</td>
-    </tr>
-    <tr>
-      <td>Risk</td>
-      <td>High Debt + Low Credit Score</td>
-      <td>4.07%</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>The majority of customers (74.54%) belong to the Regular segment, while VIP customers account for only 2.30%, indicating a relatively small group of high-value customers.</p>
-
-<strong>Customer Lifetime Value (CLV)</strong> 
-* Calculated customer lifetime metrics including: Total Spending, Average Spending, Transaction Frequency, Relationship Duration and Estimated CLV.
-* Ranked customers using RANK(), DENSE_RANK() and NTILE() to identify high-value customers.
-
-
-<strong>Customer Behaviour</strong>
-* Analyzed spending patterns across merchants, merchant categories, cities, transaction methods and card types.
-* Evaluated customer activity using monthly and daily spending trends.
-
-
-<strong>Churn Analysis</strong>
-* Classified customers as Active, At Risk, or Churned using transaction inactivity rules.
-* Churn was calculated relative to the dataset's maximum transaction date.
-* Based on the defined business rules, 1,128 customers were classified as active.
-
-<strong>Customer Acquisition</strong>
-* Evaluated monthly and yearly customer acquisition trends using account opening dates.
-
-<p> <strong>Business KPIs</strong> <br>
-<table>
-  <tr>
-    <th>KPI</th>
-    <th>Value</th>
-  </tr>
-  <tr>
-    <td>Total Customers</td>
-    <td>1,131</td>
-  </tr>
-  <tr>
-    <td>Active Customers</td>
-    <td>1,128</td>
-  </tr>
-  <tr>
-    <td>Total Spending</td>
-    <td>45,902,152.78</td>
-  </tr>
-  <tr>
-    <td>Average Transaction</td>
-    <td>46.77</td>
-  </tr>
-  <tr>
-    <td>Average CLV</td>
-    <td>10,593.94</td>
-  </tr>
-  <tr>
-    <td>Average Credit Score</td>
-    <td>709.73</td>
-  </tr>
-  <tr>
-    <td>Average Annual Income</td>
-    <td>45,313.31</td>
-  </tr>
-  <tr>
-    <td>Average Total Debt</td>
-    <td>57,644.72</td>
-  </tr>
-  <tr>
-    <td>Churn Rate</td>
-    <td>0</td>
-  </tr>
-</table> </p>
-
-<p> <strong>Key Insights</strong> <br>
-<ul>
-  <li>The customer base is dominated by the Regular segment (74.54%), while VIP customers account for only 2.30%, indicating opportunities for targeted retention strategies.</li>
-  <li>Spending and CLV analysis helps identify customers with greater value and different behavioral patterns.</li>
-  <li>Customer acquisition and activity trends provide opportunities to improve engagement and retention strategies.</li>
-</ul>
-</p>
-
-<h2><a class="anchor" id="power-bi-dashboards"></a>Power BI Dashboards</h2>
-
-![Executive Dashboard](Screenshots/executive_dashboard.png)
-
-![Customer Profile](Screenshots/customer_profile.png)
-
-![Spending Analysis](Screenshots/spending_analysis.png)
-
-![Customer Insights](Screenshots/customer_insights.png)
-
-![Churn Analysis](Screenshots/churn_analysis.png)
-
-
-<h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
-<ul>
-<li> <strong>Strengthen VIP and Premium retention</strong> through personalized rewards, loyalty benefits and targeted offers, given their higher customer value and spending potential.</li>
-<li> <strong>Use segment-specific engagement strategies</strong> by tailoring offers and services to the needs of Regular, Budget and Risk customers rather than applying a one-size-fits-all approach.</li>
-<li><strong>Monitor customer activity proactively</strong> using transaction inactivity signals to identify At-Risk customers and trigger timely engagement before prolonged inactivity.</li>
-<li> <strong>Leverage transaction behavior</strong> across merchants, categories, cities and card usage to personalize offers and improve customer engagement.</li>
-<li> <strong>Use CLV, spending and acquisition metrics</strong> to prioritize high-value customers, evaluate customer growth and guide future marketing and retention decisions. </li>
-</ul>
-
-<h2><a class="anchor" id="author- &amp;-contact"></a>Author &amp; Contact</h2>
-
-**Vani Sharma**   
-Data Analyst  
-📧 Email: vanisharma2014@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/vani-sharma-82a790221/)
-
 
