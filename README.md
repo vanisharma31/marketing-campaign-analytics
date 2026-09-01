@@ -1,0 +1,353 @@
+# 🧾 Financial Transaction Customer Analytics
+
+*Analyzed financial transaction data to evaluate customer spending, financial profiles and transaction behavior, with a focus on identifying valuable customer segments and understanding customer activity. Used SQL to build customer-level metrics, segmentation, CLV, spending and acquisition analyses and Power BI to visualize the findings through an interactive analytics dashboard.*
+
+![Executive Dashboard](Screenshots/executive_dashboard.png)
+
+
+
+## 📌 Table of Contents
+
+* <a href="#overview">Overview</a>
+* <a href="#business-problem">Business Problem</a>
+* <a href="#dataset">Dataset</a>
+* <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
+* <a href="#project-structure">Project Structure</a>
+* <a href="#data-cleaning--preparation">Data Cleaning \& Preparation</a>
+* <a href="#analysis- &amp;-key-findings">Analysis \& Key Findings</a>
+* <a href="#power-bi-dashboards">Power BI Dashboards</a>
+* <a href="#final-recommendations">Final Recommendations</a>
+* <a href="#author- &amp;-contact">Author \& Contact</a>
+
+
+<h2><a class="anchor" id="overview"></a>Overview</h2>
+
+Financial institutions generate large volumes of customer transactions every day. Analyzing this data can reveal spending patterns, customer value, segment characteristics and changes in customer activity that support better retention and growth strategies.
+
+This project analyzes customer, card and transaction data using SQL and Power BI, covering customer demographics, spending behavior, segmentation, Customer Lifetime Value (CLV), customer acquisition and churn-risk analysis.
+
+The analysis develops customer-level metrics for spending, transaction behavior, segmentation, CLV, rankings and activity, which are brought together in a five-page Power BI dashboard covering Executive Performance, Customer Profile, Spending Analysis, Customer Insights and Churn & Acquisition.
+
+
+<h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
+
+- Identify high-value customers
+- Understand spending behavior
+- Segment customers
+- Analyze CLV
+- Evaluate customer activity/churn risk
+- Analyze acquisition
+- Monitor business KPIs
+
+<h2><a class="anchor" id="dataset"></a>Dataset</h2>
+This project uses a comprehensive financial dataset containing transaction records, customer information and card data from a banking institution spanning the 2010s.
+
+1\. <strong>User Data</strong>
+
+&#x20;  Contains customer demographic and financial information.
+
+&#x20;  Columns
+
+* id
+* current\_age
+* retirement\_age
+* birth\_year
+* birth\_month
+* gender
+* address
+* per\_capita\_income
+* yearly\_income
+* total\_debt
+* credit\_score
+* num\_credit\_cards
+
+
+
+2\. <strong>Card Data</strong>
+
+&#x20;  Contains customer card and account information.
+
+&#x20;  Columns
+
+* id
+* client\_id
+* card\_brand
+* card\_type
+* card\_number
+* expires
+* cvv
+* has\_chip
+* num\_cards\_issued
+* credit\_limit	
+* acct\_open\_date
+* year\_pin\_last\_changed
+* card\_on\_dark\_web
+
+
+
+3\. <strong>Transaction Data</strong>
+
+&#x20;  Contains transaction-level information.
+
+&#x20;  Columns
+
+* id
+* date	
+* client\_id
+* card\_id
+* amount
+* use\_chip
+* merchant\_id	
+* merchant\_city
+* merchant\_state
+* zip
+* mcc
+* errors
+
+
+
+
+<h2><a class="anchor" id="tools- &amp;-technologies"></a>Tools &amp; Technologies</h2>
+
+* SQL (CTEs, Joins, Window Functions, Aggregate Functions, Views, Stored Procedures)
+* Power BI (Data Modeling, DAX, KPI Dashboards, Interactive Visualizations)
+* Excel
+* Git & GitHub
+
+
+<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
+
+```
+financial-transaction-analysis/
+
+│
+
+├── Dataset/
+
+│   ├── users\_data.csv
+
+│   ├── cards\_data.csv
+
+│   └── transactions\_data.csv
+
+│
+
+├── SQL Scripts/
+
+│   ├── 01\_Load\_Dataset.sql
+
+│   ├── 02\_Exploratory\_Data\_Analysis.sql
+
+│   ├── 03\_Customer\_Demographics.sql
+
+│   ├── 04\_Spending\_Analysis.sql
+
+│   ├── 05\_Customer\_Segmentation.sql
+
+│   ├── 06\_Customer\_Lifetime\_Value.sql
+
+│   ├── 07\_Customer\_Behaviour.sql
+
+│   ├── 08\_Customer\_Preferences\_Recommendations.sql
+
+│   ├── 09\_Churn\_Analysis.sql
+
+│   ├── 10\_Customer\_Acquisition.sql
+
+│   ├── 11\_Business\_KPIs.sql
+
+│   ├── 12\_Views.sql
+
+│   └── 13\_Stored\_Procedures.sql
+
+│
+
+├── PowerBI/
+
+│   ├── Dashboard.pdf
+
+│
+
+├── Screenshots/
+
+│   ├── Executive_Dashboard.png
+
+│   ├── Customer_Profile.png
+
+│   ├── Spending_Analysis.png
+
+│   ├── Customer_Insights.png
+
+│   └── Churn_Acquisition.png
+
+│ 
+
+└── README.md
+
+
+
+```
+
+
+<h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning &amp; Preparation</h2>
+
+- Standardized date, numeric and text fields for consistent analysis.
+- Handled NULL, blank and invalid values and checked for duplicate records.
+- Validated relationships across customer, card and transaction data.
+- Created analytical SQL views to prepare the data for Power BI.
+
+
+<h2><a class="anchor" id="analysis- &amp;-key-findings"></a>Analysis &amp; Key Findings</h2>
+
+<p>The analysis provides insights into customer demographics, spending behavior, customer value, segmentation, churn and overall business performance.</p>
+
+<strong>Customer Demographics</strong> 
+* Analyzed customer demographics including age, gender, annual income, debt and credit score.
+* The average annual income was 45,313.31, with an average credit score of 709.73.
+
+<strong>Spending Analysis</strong> 
+* Analyzed spending trends across customers using transaction history.
+* The dataset includes 1,131 customers with a total spending of 45,902,152.78.
+* The average transaction value was 46.77.
+
+<strong>Customer Segmentation</strong>
+* Customers were segmented based on income, spending, debt and credit score.
+<table>
+  <thead>
+    <tr>
+      <th>Customer Segment</th>
+      <th>Description</th>
+      <th>Percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VIP</td>
+      <td>High Income + High Spending</td>
+      <td>2.30%</td>
+    </tr>
+    <tr>
+      <td>Premium</td>
+      <td>Good Credit Score + High Spending</td>
+      <td>15.74%</td>
+    </tr>
+    <tr>
+      <td>Regular</td>
+      <td>Average Spending Customers</td>
+      <td>74.54%</td>
+    </tr>
+    <tr>
+      <td>Budget</td>
+      <td>Low Spending Customers</td>
+      <td>3.36%</td>
+    </tr>
+    <tr>
+      <td>Risk</td>
+      <td>High Debt + Low Credit Score</td>
+      <td>4.07%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The majority of customers (74.54%) belong to the Regular segment, while VIP customers account for only 2.30%, indicating a relatively small group of high-value customers.</p>
+
+<strong>Customer Lifetime Value (CLV)</strong> 
+* Calculated customer lifetime metrics including: Total Spending, Average Spending, Transaction Frequency, Relationship Duration and Estimated CLV.
+* Ranked customers using RANK(), DENSE_RANK() and NTILE() to identify high-value customers.
+
+
+<strong>Customer Behaviour</strong>
+* Analyzed spending patterns across merchants, merchant categories, cities, transaction methods and card types.
+* Evaluated customer activity using monthly and daily spending trends.
+
+
+<strong>Churn Analysis</strong>
+* Classified customers as Active, At Risk, or Churned using transaction inactivity rules.
+* Churn was calculated relative to the dataset's maximum transaction date.
+* Based on the defined business rules, 1,128 customers were classified as active.
+
+<strong>Customer Acquisition</strong>
+* Evaluated monthly and yearly customer acquisition trends using account opening dates.
+
+<p> <strong>Business KPIs</strong> <br>
+<table>
+  <tr>
+    <th>KPI</th>
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td>Total Customers</td>
+    <td>1,131</td>
+  </tr>
+  <tr>
+    <td>Active Customers</td>
+    <td>1,128</td>
+  </tr>
+  <tr>
+    <td>Total Spending</td>
+    <td>45,902,152.78</td>
+  </tr>
+  <tr>
+    <td>Average Transaction</td>
+    <td>46.77</td>
+  </tr>
+  <tr>
+    <td>Average CLV</td>
+    <td>10,593.94</td>
+  </tr>
+  <tr>
+    <td>Average Credit Score</td>
+    <td>709.73</td>
+  </tr>
+  <tr>
+    <td>Average Annual Income</td>
+    <td>45,313.31</td>
+  </tr>
+  <tr>
+    <td>Average Total Debt</td>
+    <td>57,644.72</td>
+  </tr>
+  <tr>
+    <td>Churn Rate</td>
+    <td>0</td>
+  </tr>
+</table> </p>
+
+<p> <strong>Key Insights</strong> <br>
+<ul>
+  <li>The customer base is dominated by the Regular segment (74.54%), while VIP customers account for only 2.30%, indicating opportunities for targeted retention strategies.</li>
+  <li>Spending and CLV analysis helps identify customers with greater value and different behavioral patterns.</li>
+  <li>Customer acquisition and activity trends provide opportunities to improve engagement and retention strategies.</li>
+</ul>
+</p>
+
+<h2><a class="anchor" id="power-bi-dashboards"></a>Power BI Dashboards</h2>
+
+![Executive Dashboard](Screenshots/executive_dashboard.png)
+
+![Customer Profile](Screenshots/customer_profile.png)
+
+![Spending Analysis](Screenshots/spending_analysis.png)
+
+![Customer Insights](Screenshots/customer_insights.png)
+
+![Churn Analysis](Screenshots/churn_analysis.png)
+
+
+<h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
+<ul>
+<li> <strong>Strengthen VIP and Premium retention</strong> through personalized rewards, loyalty benefits and targeted offers, given their higher customer value and spending potential.</li>
+<li> <strong>Use segment-specific engagement strategies</strong> by tailoring offers and services to the needs of Regular, Budget and Risk customers rather than applying a one-size-fits-all approach.</li>
+<li><strong>Monitor customer activity proactively</strong> using transaction inactivity signals to identify At-Risk customers and trigger timely engagement before prolonged inactivity.</li>
+<li> <strong>Leverage transaction behavior</strong> across merchants, categories, cities and card usage to personalize offers and improve customer engagement.</li>
+<li> <strong>Use CLV, spending and acquisition metrics</strong> to prioritize high-value customers, evaluate customer growth and guide future marketing and retention decisions. </li>
+</ul>
+
+<h2><a class="anchor" id="author- &amp;-contact"></a>Author &amp; Contact</h2>
+
+**Vani Sharma**   
+Data Analyst  
+📧 Email: vanisharma2014@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/vani-sharma-82a790221/)
+
+
