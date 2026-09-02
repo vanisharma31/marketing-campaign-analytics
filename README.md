@@ -109,18 +109,19 @@ A sentiment and ratings analysis view:
 **Overview**
 ![Overview page](screenshots/overview.png)
 
+**Conversion Details**
+![Conversion Details](screenshots/conversion_details.png)
+
 **Social Media Details**
-![Social Media Details page](screenshots/social-media-details.png)
+![Social Media Details ](screenshots/social_media_details.png)
 
 **Customer Review Details**
-![Customer Review Details page](screenshots/customer-review-details.png)
+![Customer Review Details](screenshots/customer_review-_etails.png)
 
-**Goals & Actions**
-![Goals and Actions](screenshots/goals-and-actions.png)
 
 *(Full-resolution screenshots are available in the [`Screenshots/`](https://github.com/vanisharma31/marketing-campaign-analytics/tree/main/Screenshots) folder of the repo.)*
 
----
+
 
 ## 🧠 Key Insights
 
@@ -131,7 +132,7 @@ A sentiment and ratings analysis view:
 
 *(Explore the dashboard filters to drill into specific years, months, and products for deeper findings.)*
 
----
+
 
 ## ✅ Goals & Recommended Actions
 
@@ -140,6 +141,7 @@ A sentiment and ratings analysis view:
 | **Increase Conversion Rates** | **Target high-performing product categories** — focus marketing efforts on products with demonstrated high conversion rates, such as Kayaks, Ski Boots, and Baseball Gloves. Run seasonal promotions or personalized campaigns during peak months (e.g. January and September) to capitalize on these trends. |
 | **Enhance Customer Engagement** | **Revitalize the content strategy** — to turn around declining views and low interaction rates, experiment with more engaging formats such as interactive videos or user-generated content. Boost engagement further by optimizing call-to-action placement in social media and blog content, particularly during historically lower-engagement months (September–December). |
 | **Improve Customer Feedback Scores** | **Address mixed and negative feedback** — implement a feedback loop where mixed and negative reviews are analyzed to identify common issues. Develop improvement plans to address these concerns, follow up with dissatisfied customers to resolve issues, and encourage re-rating, aiming to move average ratings closer to the 4.0 target. |
+
 ## 🛠️ Tools & Technologies
 
 | Technology | Usage |
@@ -154,7 +156,7 @@ A sentiment and ratings analysis view:
 | 📗 Excel | Data preparation and validation |
 | 🌐 Git & GitHub | Version control and project management |
 
----
+
 
 ## 📁 Project Structure
 
