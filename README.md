@@ -6,7 +6,7 @@ An end-to-end analytics project built to help an online retail business diagnose
 The project combines SQL Server (data storage & analysis), Python (customer review sentiment analysis) and Power BI (interactive dashboarding) into a single analytics pipeline.
 
 ## 📑 Table of Contents
-
+* <a href="#project-at-glance">Project at Glance</a>
 * <a href="#business-problem">Business Problem</a>
 * <a href="#project-goals">Project Goals</a>
 * <a href="#project-workflow">Project Workflow</a>
@@ -111,7 +111,7 @@ fact_customer_reviews_with_sentiment.csv
 - pyodbc - SQL Server connection
 - nltk - Sentiment analysis
 
-<h2><a class="anchor" id="dashboard-structure"></a> 🗂️ Dashboard Structure </h2>
+<h2><a class="anchor" id="dashboard-structure"></a> 📊 Dashboard Structure </h2>
 
 The Power BI report contains three interconnected pages, all filterable by **Year (2023 / 2024 / 2025)**, **Month** and **Product**.
 
