@@ -1,9 +1,25 @@
 
-#  📊 Marketing Campaign Analytics
+# 📊 Marketing Campaign Analytics
 
-An end-to-end analytics project built to help an online retail business diagnose declining customer engagement and conversion rates, and to guide data-driven improvements to their marketing strategy. The project combines **SQL** (data storage), **Python** (customer review sentiment analysis), and **Power BI** (interactive dashboard) into a single pipeline.
+An end-to-end analytics project built to help an online retail business diagnose declining customer engagement and conversion rates, and to guide data-driven improvements to its marketing strategy.
 
-🔗 **Project Repository:** [marketing-campaign-analytics](https://github.com/vanisharma31/marketing-campaign-analytics/)
+The project combines SQL Server (data storage & analysis), Python (customer review sentiment analysis), and Power BI (interactive dashboarding) into a single analytics pipeline.
+
+## 📑 Table of Contents
+Business Problem
+Project Goals
+Project Workflow
+Python — Sentiment Analysis
+Dashboard Structure
+Overview
+Social Media Details
+Customer Review Details
+Goals & Recommended Actions
+Key Insights
+Goals & Recommended Actions
+Tools & Technologies
+Repository Structure
+Author
 
 ---
 
