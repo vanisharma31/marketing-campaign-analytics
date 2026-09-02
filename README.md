@@ -3,7 +3,7 @@
 
 An end-to-end analytics project built to help an online retail business diagnose declining customer engagement and conversion rates, and to guide data-driven improvements to its marketing strategy.
 
-The project combines SQL Server (data storage & analysis), Python (customer review sentiment analysis), and Power BI (interactive dashboarding) into a single analytics pipeline.
+The project combines SQL Server (data storage & analysis), Python (customer review sentiment analysis) and Power BI (interactive dashboarding) into a single analytics pipeline.
 
 ## 📑 Table of Contents
 Business Problem
