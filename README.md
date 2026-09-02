@@ -1,10 +1,9 @@
 # 📊 Marketing Campaign & Customer Sentiment Analysis
 
-An end-to-end **Data Analytics & Business Intelligence project** analyzing marketing campaign performance, customer engagement, conversion rates, and customer feedback using **SQL, Python, and Power BI**.
+An end-to-end **Data Analytics & Business Intelligence project** analyzing marketing campaign performance, customer engagement, conversion rates and customer feedback using **SQL, Python and Power BI**.
 
-The project aims to identify factors affecting conversion and engagement, understand customer sentiment, and provide data-driven recommendations to improve marketing effectiveness and customer experience.
+The project aims to identify factors affecting conversion and engagement, understand customer sentiment and provide data-driven recommendations to improve marketing effectiveness and customer experience.
 
----
 
 ## 📌 Business Problem
 
@@ -19,7 +18,7 @@ At the same time, significant investments in marketing are not generating the ex
 * 💰 **High Marketing Expenses:** Marketing investments are not producing the expected results.
 * 💬 **Customer Feedback:** Customer opinions need to be analyzed to identify areas for product and service improvement.
 
----
+
 
 # 🎯 Project Objectives
 
@@ -39,7 +38,6 @@ At the same time, significant investments in marketing are not generating the ex
 
 Identify major funnel drop-off points and recommend strategies to improve the journey from website visit to purchase.
 
----
 
 ## 2. 📱 Enhance Customer Engagement
 
@@ -57,7 +55,6 @@ Identify major funnel drop-off points and recommend strategies to improve the jo
 
 Use engagement patterns to develop more effective content strategies and focus marketing efforts on content that generates stronger customer interaction.
 
----
 
 ## 3. 💬 Improve Customer Feedback Scores
 
@@ -75,7 +72,6 @@ Use engagement patterns to develop more effective content strategies and focus m
 
 Use customer feedback to identify product and service strengths while addressing recurring issues affecting customer satisfaction.
 
----
 
 # 🔄 Project Workflow
 
@@ -116,7 +112,6 @@ Use customer feedback to identify product and service strengths while addressing
                RECOMMENDATIONS
 ```
 
----
 
 # 🛠️ Tools & Technologies
 
@@ -128,13 +123,13 @@ Use customer feedback to identify product and service strengths while addressing
 | **Excel / CSV**  | Data storage and processed datasets                          |
 | **Git & GitHub** | Version control and project management                       |
 
----
+
 
 # 🔍 Analysis
 
 ## SQL — Data Cleaning & Analysis
 
-SQL was used to clean, transform, and analyze the marketing campaign data.
+SQL was used to clean, transform and analyze the marketing campaign data.
 
 ### Key Activities
 
@@ -157,7 +152,6 @@ SQL was used to clean, transform, and analyze the marketing campaign data.
 * Customer Engagement
 * Product Performance
 
----
 
 ## Python — Sentiment Analysis
 
@@ -174,7 +168,6 @@ Python was used to analyze customer reviews and understand customer sentiment.
 
 This combines **quantitative marketing performance metrics** with **qualitative customer feedback** to provide a more comprehensive view of business performance.
 
----
 
 # 📊 Power BI Dashboard
 
@@ -186,7 +179,6 @@ Provides a high-level summary of marketing performance and key business KPIs.
 
 ![Overview](Screenshots/overview.png)
 
----
 
 ## 📈 Conversion Analysis
 
@@ -200,7 +192,6 @@ Analyzes:
 
 ![Conversion Analysis](Screenshots/conversion_details.png)
 
----
 
 ## 📱 Social Media & Engagement Analysis
 
@@ -214,7 +205,6 @@ Analyzes:
 
 ![Social Media Analysis](Screenshots/social_media_details.png)
 
----
 
 ## 💬 Customer Review Analysis
 
@@ -227,7 +217,6 @@ Analyzes:
 
 ![Customer Review Analysis](Screenshots/customer_review_details.png)
 
----
 
 # 📌 Key Findings
 
@@ -255,7 +244,7 @@ Analyzes:
 
 Sentiment analysis helped identify recurring customer concerns and areas for improving products and services.
 
----
+
 
 # 💡 Business Recommendations
 
@@ -281,7 +270,7 @@ Sentiment analysis helped identify recurring customer concerns and areas for imp
 * Use positive feedback to identify business strengths.
 * Combine sentiment analysis with ratings to monitor customer satisfaction.
 
----
+
 
 # 📁 Project Structure
 
@@ -310,7 +299,6 @@ marketing-campaign-analytics/
     └── customer_review_details.png
 ```
 
----
 
 # 📈 Skills Demonstrated
 
@@ -328,7 +316,6 @@ marketing-campaign-analytics/
 * Business Intelligence
 * Data-Driven Recommendations
 
----
 <h2><a class="anchor" id="author- &amp;-contact"></a>Author &amp; Contact</h2>
 **Vani Sharma**   
 Data Analyst  
