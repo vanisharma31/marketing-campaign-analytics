@@ -329,11 +329,10 @@ marketing-campaign-analytics/
 * Data-Driven Recommendations
 
 ---
+<h2><a class="anchor" id="author- &amp;-contact"></a>Author &amp; Contact</h2>
+**Vani Sharma**   
+Data Analyst  
+📧 Email: vanisharma2014@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/vani-sharma-82a790221/)
 
-# 👩‍💻 Author
 
-**Vani Sharma**
-
-MSc Mathematics | Data Analyst
-
-**Tools:** SQL • Python • Power BI • Excel
