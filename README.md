@@ -141,17 +141,21 @@ A sentiment and ratings analysis view:
 | **Enhance Customer Engagement** | **Revitalize the content strategy** — to turn around declining views and low interaction rates, experiment with more engaging formats such as interactive videos or user-generated content. Boost engagement further by optimizing call-to-action placement in social media and blog content, particularly during historically lower-engagement months (September–December). |
 | **Improve Customer Feedback Scores** | **Address mixed and negative feedback** — implement a feedback loop where mixed and negative reviews are analyzed to identify common issues. Develop improvement plans to address these concerns, follow up with dissatisfied customers to resolve issues, and encourage re-rating, aiming to move average ratings closer to the 4.0 target. |
 
----
+
 
 ## 🛠️ Tools & Technologies
+Technology	Usage
+🗄️ SQL Server	Data storage, cleaning, transformation, and analysis
+🐍 Python	Customer review sentiment analysis
+🐼 Pandas	Data manipulation and processing
+🔌 PyODBC	SQL Server–Python connection
+💬 NLTK / VADER	Sentiment analysis
+📊 Power BI	Data modeling, DAX, KPI analysis, and dashboard development
+🔄 Power Query	Data transformation
+📗 Excel	Data preparation and validation
+🌐 Git & GitHub	Version control and project management
 
-- **SQL Server** — source data storage (`sql/` folder holds schema/queries)
-- **Python** (pandas, pyodbc, NLTK/VADER) — customer review sentiment analysis
-- **Power BI Desktop** — data modeling, DAX measures, and interactive report design
-- **Power Query** — data cleaning and transformation
-- **DAX** — KPI calculations (Conversion Rate, Rating Average, engagement metrics)
 
----
 
 ## 📁 Repository Structure
 
