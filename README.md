@@ -60,6 +60,7 @@ Power BI
    │
    ▼
 Business Insights & Recommendations
+```
 
 ####1️⃣ SQL Server — Data Preparation & Analysis
 
