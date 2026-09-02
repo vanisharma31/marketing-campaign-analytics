@@ -1,180 +1,289 @@
 # 📊 Marketing Campaign & Customer Sentiment Analysis
 
-An online retail business launched multi-channel marketing campaigns across Blog, Social Media, and Video platforms. Despite substantial investment, the business experienced declining visitor engagement, lower conversion rates, and sub-target customer review scores.
+An end-to-end **Data Analytics & Business Intelligence project** analyzing marketing campaign performance, customer engagement, conversion rates, and customer feedback using **SQL, Python, and Power BI**.
 
-This project delivers an end-to-end data analytics and business intelligence solution. It evaluates customer funnel conversion rates, cross-channel social engagement, and customer feedback across 2023–2025, with a primary focal analysis on 2025 performance.
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Business Objectives](#business-objectives)
-- [Analysis Workflow](#analysis-workflow)
-  - [SQL — Data Preparation & Analysis](#1-sql--data-preparation--analysis)
-  - [Python — Sentiment Analysis](#2-python--sentiment-analysis)
-  - [Power BI — Dashboard Development](#3-power-bi--dashboard-development)
-- [Key Findings](#key-findings)
-  - [Conversion Performance](#conversion-performance)
-  - [Customer Engagement](#customer-engagement)
-  - [Customer Feedback](#customer-feedback)
-- [Recommendations](#recommendations)
-  - [Improve Conversion Rates](#improve-conversion-rates)
-  - [Increase Customer Engagement](#increase-customer-engagement)
-  - [Improve Customer Satisfaction](#improve-customer-satisfaction)
-- [Dashboard](#dashboard)
-  - [Overview](#overview)
-  - [Conversion Analysis](#conversion-analysis)
-  - [Social Media Analysis](#social-media-analysis)
-  - [Customer Review Analysis](#customer-review-analysis)
-- [Tools & Technologies](#tools--technologies)
-- [Project Structure](#project-structure)
-- [Conclusion](#conclusion)
-- [Author & Contact](#author--contact)
+The project aims to identify factors affecting conversion and engagement, understand customer sentiment, and provide data-driven recommendations to improve marketing effectiveness and customer experience.
 
 ---
 
-## Project Overview
+## 📌 Business Problem
 
-This project analyzes marketing campaign performance, customer engagement, and customer feedback to understand the factors influencing conversion, audience interaction, and customer satisfaction.
+An online retail business is experiencing a decline in **customer engagement and conversion rates** despite launching several new online marketing campaigns.
 
-The analysis combines marketing performance metrics with customer review sentiment to provide a broader view of campaign effectiveness and customer experience.
+At the same time, significant investments in marketing are not generating the expected returns. The business needs to understand what is driving these changes and identify opportunities for improvement.
 
----
+### Key Challenges
 
-## Business Objectives
-
-### Increase Conversion Rates
-
-Identify variations in conversion performance across months and products and uncover opportunities to improve the customer conversion funnel.
-
-### Enhance Customer Engagement
-
-Analyze views, clicks, likes, and content performance to understand audience engagement and identify opportunities to increase interaction.
-
-### Improve Customer Feedback
-
-Analyze customer ratings and review sentiment to understand customer satisfaction and identify areas requiring improvement.
+* 📉 **Reduced Customer Engagement:** Customer interactions with the website and marketing content have declined.
+* 📉 **Decreased Conversion Rates:** Fewer visitors are progressing through the customer journey and becoming paying customers.
+* 💰 **High Marketing Expenses:** Marketing investments are not producing the expected results.
+* 💬 **Customer Feedback:** Customer opinions need to be analyzed to identify areas for product and service improvement.
 
 ---
 
-## Analysis Workflow
+# 🎯 Project Objectives
 
-The project follows a **SQL → Python → Power BI** workflow.
+## 1. 📈 Increase Conversion Rates
 
-### 1. SQL — Data Preparation & Analysis
+**Goal:** Identify factors impacting conversion rates and provide recommendations to improve them.
 
-Used SQL to:
+### Analysis
 
-- Clean and transform the source data
-- Prepare datasets for analysis
-- Analyze customer journeys and conversion performance
-- Calculate campaign and engagement metrics
-- Structure data for downstream analysis
+* Analyze the customer conversion funnel
+* Identify key stages where visitors drop off
+* Compare conversion rates across products
+* Analyze conversion trends over time
+* Identify high- and low-performing products
 
-### 2. Python — Sentiment Analysis
+### Insight
 
-Used Python and NLP techniques to:
-
-- Process customer reviews
-- Perform sentiment classification
-- Categorize reviews into positive, negative, neutral, and mixed sentiment
-- Generate the processed dataset used for dashboard analysis
-
-### 3. Power BI — Dashboard Development
-
-Built an interactive Power BI dashboard covering:
-
-- Conversion performance
-- Customer journey and drop-off
-- Product-level conversion
-- Social media engagement
-- Customer ratings
-- Customer sentiment
+Identify major funnel drop-off points and recommend strategies to improve the journey from website visit to purchase.
 
 ---
 
-## Key Findings
+## 2. 📱 Enhance Customer Engagement
 
-### Conversion Performance
+**Goal:** Determine which types of marketing content drive the highest engagement.
 
-- The overall conversion rate was **9.45%**.
-- Monthly conversion rates varied considerably, ranging from **5.98% in October** to **16.46% in January**.
-- **Hockey Stick (14.71%)**, **Ski Boots (14.29%)**, and **Baseball Glove (13.54%)** were the highest-converting products.
-- The customer journey shows a substantial drop-off between views, clicks, and purchases, highlighting an opportunity to improve the conversion funnel.
+### Analysis
 
-### Customer Engagement
+* Analyze views, clicks, and likes
+* Compare engagement across content types
+* Identify high-performing content
+* Analyze engagement trends over time
+* Identify periods of declining engagement
 
-- The analysis recorded approximately **90.79M views**, **17.85M clicks**, and **4.14M likes**.
-- Views, clicks, and likes showed a downward trend across the year, with engagement weakening toward the later months.
-- The gap between views and deeper interactions indicates an opportunity to strengthen calls-to-action and create more engaging content.
-- Content performance varies across blog, social media, and video formats, providing opportunities to optimize the content mix.
+### Insight
 
-### Customer Feedback
-
-- The average customer rating was **3.69/5**.
-- The dataset contains **1,363 customer reviews**.
-- **840 reviews** were classified as positive, making positive sentiment the dominant category.
-- **226 reviews** were classified as negative.
-- Mixed and neutral feedback provides additional opportunities to identify recurring customer concerns and improve the overall customer experience.
+Use engagement patterns to develop more effective content strategies and focus marketing efforts on content that generates stronger customer interaction.
 
 ---
 
-## Recommendations
+## 3. 💬 Improve Customer Feedback Scores
 
-### Improve Conversion Rates
+**Goal:** Understand common themes in customer reviews and provide actionable insights.
 
-- Prioritize high-performing product categories such as **Hockey Stick, Ski Boots, and Baseball Glove**.
-- Investigate the factors behind low-conversion months, particularly **October**.
-- Optimize the customer journey to reduce drop-offs between visits, clicks, and purchases.
-- Use seasonal trends to time promotions and campaigns more effectively.
+### Analysis
 
-### Increase Customer Engagement
+* Analyze customer ratings
+* Perform sentiment analysis on customer reviews
+* Identify positive and negative feedback
+* Identify recurring customer concerns
+* Compare sentiment with customer ratings
 
-- Refresh the content strategy to address the decline in views and interactions.
-- Experiment with more engaging formats such as video, interactive content, and user-generated content.
-- Strengthen calls-to-action across marketing channels.
-- Focus on content types and periods that demonstrate stronger audience engagement.
+### Insight
 
-### Improve Customer Satisfaction
-
-- Analyze negative and mixed reviews to identify recurring issues.
-- Use customer feedback to guide product and service improvements.
-- Establish a feedback loop to address customer concerns.
-- Work toward improving the average customer rating from **3.69 toward 4.0+**.
+Use customer feedback to identify product and service strengths while addressing recurring issues affecting customer satisfaction.
 
 ---
 
-## Dashboard
+# 🔄 Project Workflow
 
-### Overview
+```text
+                    RAW DATA
+                       │
+                       ▼
+              ┌─────────────────┐
+              │      SQL        │
+              │                 │
+              │ Data Cleaning   │
+              │ Transformation  │
+              │ KPI Analysis    │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │     PYTHON      │
+              │                 │
+              │ Sentiment       │
+              │ Analysis        │
+              │ Customer Reviews │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │    POWER BI     │
+              │                 │
+              │ Data Modeling   │
+              │ DAX             │
+              │ Visualization   │
+              └────────┬────────┘
+                       │
+                       ▼
+              BUSINESS INSIGHTS
+                       │
+                       ▼
+               RECOMMENDATIONS
+```
+
+---
+
+# 🛠️ Tools & Technologies
+
+| Tool             | Purpose                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| **SQL**          | Data cleaning, transformation, KPI calculations and analysis |
+| **Python**       | Customer review sentiment analysis and NLP                   |
+| **Power BI**     | Data modeling, DAX, visualization and dashboard development  |
+| **Excel / CSV**  | Data storage and processed datasets                          |
+| **Git & GitHub** | Version control and project management                       |
+
+---
+
+# 🔍 Analysis
+
+## SQL — Data Cleaning & Analysis
+
+SQL was used to clean, transform, and analyze the marketing campaign data.
+
+### Key Activities
+
+* Data cleaning and transformation
+* Handling missing and inconsistent values
+* Date transformation
+* Conversion rate calculation
+* Customer funnel analysis
+* Product-level performance analysis
+* Marketing engagement analysis
+* KPI generation for Power BI
+
+### Key Metrics
+
+* Conversion Rate
+* Website Views
+* Clicks
+* Likes
+* Purchases
+* Customer Engagement
+* Product Performance
+
+---
+
+## Python — Sentiment Analysis
+
+Python was used to analyze customer reviews and understand customer sentiment.
+
+### Analysis Included
+
+* Text preprocessing
+* Sentiment scoring
+* Sentiment classification
+* Positive / Negative / Neutral / Mixed categorization
+* Customer review analysis
+* Exporting processed data for Power BI
+
+This combines **quantitative marketing performance metrics** with **qualitative customer feedback** to provide a more comprehensive view of business performance.
+
+---
+
+# 📊 Power BI Dashboard
+
+The Power BI dashboard provides an interactive view of marketing performance, customer engagement, conversion, and customer feedback.
+
+## 🏠 Overview
+
+Provides a high-level summary of marketing performance and key business KPIs.
 
 ![Overview](Screenshots/overview.png)
 
-### Conversion Analysis
+---
+
+## 📈 Conversion Analysis
+
+Analyzes:
+
+* Overall conversion rate
+* Monthly conversion trends
+* Product-level conversion
+* Customer journey
+* Funnel drop-offs
 
 ![Conversion Analysis](Screenshots/conversion_details.png)
 
-### Social Media Analysis
+---
+
+## 📱 Social Media & Engagement Analysis
+
+Analyzes:
+
+* Views
+* Clicks
+* Likes
+* Content performance
+* Engagement trends
 
 ![Social Media Analysis](Screenshots/social_media_details.png)
 
-### Customer Review Analysis
+---
+
+## 💬 Customer Review Analysis
+
+Analyzes:
+
+* Average customer rating
+* Sentiment distribution
+* Positive vs. negative reviews
+* Customer feedback trends
 
 ![Customer Review Analysis](Screenshots/customer_review_details.png)
 
 ---
 
-## Tools & Technologies
+# 📌 Key Findings
 
-| Tool | Purpose |
-|------|---------|
-| **SQL** | Data cleaning, transformation & analysis |
-| **Python** | NLP & sentiment analysis |
-| **Power BI** | Data modeling, visualization & dashboard development |
-| **CSV** | Processed analytical dataset |
+### Conversion Performance
+
+* Overall conversion rate: **9.45%**
+* Monthly conversion rate ranged from **5.98% to 16.46%**
+* **Hockey Stick (14.71%)**, **Ski Boots (14.29%)**, and **Baseball Glove (13.54%)** were among the highest-converting products.
+* Significant drop-offs were observed across stages of the customer conversion funnel.
+
+### Customer Engagement
+
+* Approximately **90.79M views**
+* **17.85M clicks**
+* **4.14M likes**
+* Engagement declined during later months.
+* The gap between views and deeper interactions indicates opportunities to improve content and calls-to-action.
+
+### Customer Feedback
+
+* Average customer rating: **3.69 / 5**
+* **1,363 customer reviews** analyzed
+* **840 positive reviews**
+* **226 negative reviews**
+
+Sentiment analysis helped identify recurring customer concerns and areas for improving products and services.
 
 ---
 
-## Project Structure
+# 💡 Business Recommendations
+
+### 📈 Improve Conversion
+
+* Identify and address major funnel drop-off points.
+* Optimize product pages and calls-to-action.
+* Focus marketing efforts on high-converting products.
+* Investigate periods with unusually low conversion rates.
+* Use customer feedback to identify potential barriers to purchase.
+
+### 📱 Improve Engagement
+
+* Prioritize high-performing content types.
+* Experiment with different content formats and calls-to-action.
+* Analyze declining engagement periods.
+* Allocate marketing resources toward content generating stronger interactions.
+
+### 💬 Improve Customer Satisfaction
+
+* Investigate recurring themes in negative reviews.
+* Address common product and service complaints.
+* Use positive feedback to identify business strengths.
+* Combine sentiment analysis with ratings to monitor customer satisfaction.
+
+---
+
+# 📁 Project Structure
 
 ```text
 marketing-campaign-analytics/
@@ -199,179 +308,32 @@ marketing-campaign-analytics/
     ├── conversion_details.png
     ├── social_media_details.png
     └── customer_review_details.png
-
-## 📌 Project Overview
-
-Marketing performance can look strong at the surface while underlying engagement and conversion metrics tell a different story.
-![overview](Screenshots/overview.png)
-
-This project analyzes marketing campaign performance, customer engagement, and customer feedback to understand:
-
-- What is driving changes in conversion rates?
-- Which periods and products perform better?
-- How is customer engagement changing over time?
-- Which content types generate the most visibility?
-- What does customer feedback reveal about satisfaction?
-- What actions could improve marketing effectiveness and customer experience?
+```
 
 ---
 
-## 🎯 Business Objectives
+# 📈 Skills Demonstrated
 
-### Increase Conversion Rates
-Identify factors affecting conversion performance and uncover periods, products, and opportunities with stronger conversion potential.
-
-### Enhance Customer Engagement
-Analyze views, clicks, likes, and content performance to understand changes in audience engagement.
-
-### Improve Customer Feedback
-Analyze customer ratings and review sentiment to identify areas of satisfaction and potential improvement.
-
----
-
-## 🔄 Approach
-
-The analysis follows a **SQL → Python → Power BI** workflow.
-
-### 1. SQL — Data Preparation & Analysis
-
-Used SQL to:
-
-- Clean and transform the marketing and customer review data
-- Prepare data for analysis
-- Analyze campaign and conversion performance
-- Create the required analytical dataset
-
-### 2. Python — Sentiment Analysis
-
-Used Python and NLP techniques to:
-
-- Process customer reviews
-- Perform sentiment classification
-- Identify positive, negative, neutral, and mixed feedback
-- Generate a processed dataset for further analysis
-
-### 3. Power BI — Dashboard & Insights
-
-Built an interactive Power BI dashboard to analyze:
-
-- Conversion performance
-- Product-level conversion rates
-- Social media engagement
-- Content performance
-- Customer ratings
-- Customer sentiment
+* SQL Data Cleaning & Transformation
+* Exploratory Data Analysis
+* Conversion Funnel Analysis
+* Customer Engagement Analysis
+* KPI Development
+* Natural Language Processing
+* Sentiment Analysis
+* Power BI
+* DAX
+* Data Modeling
+* Data Visualization
+* Business Intelligence
+* Data-Driven Recommendations
 
 ---
 
-## 📈 Key Findings
+# 👩‍💻 Author
 
-### Conversion Performance
+**Vani Sharma**
 
-- The overall conversion rate was **8.5%**.
-- Conversion performance varied significantly throughout the year, reaching a high of **18.5% in January** and falling to **4.3% in May**.
-- Several product categories showed considerably stronger conversion rates, including **Kayak, Ski Boots, and Surfboard**.
-- The variation across months suggests opportunities to align promotions and campaigns with periods of stronger customer demand.
+MSc Mathematics | Data Analyst
 
-### Customer Engagement
-
-- Total views reached approximately **2.98M**, compared with **458K clicks** and **73.6K likes**.
-- Views showed a declining trend during the later months of the year, particularly from August onward.
-- Blog content generated strong visibility in several months, while social media and video content contributed to overall engagement.
-- The relatively low number of clicks and likes compared with views suggests an opportunity to strengthen calls-to-action and create more interactive content.
-
-### Customer Feedback
-
-- Customer reviews had an average rating of **3.7/5**.
-- **4-star (140)** and **5-star (135)** reviews represented the largest share of ratings.
-- Sentiment analysis identified **275 positive reviews**, while **82 reviews were classified as negative**.
-- Mixed and negative feedback highlights opportunities to identify recurring customer concerns and improve the overall customer experience.
-
----
-
-## 💡 Recommendations
-
-### Improve Conversion Rates
-
-- Focus marketing efforts on high-performing product categories such as Kayaks, Ski Boots, and Baseball Gloves.
-- Use seasonal promotions and targeted campaigns during historically stronger conversion periods.
-- Investigate the causes of low-conversion periods such as May and optimize campaign strategy accordingly.
-
-### Increase Customer Engagement
-
-- Refresh content strategy as views decline during the later months.
-- Experiment with more interactive formats, including video and user-generated content.
-- Strengthen calls-to-action across social media and blog content to convert views into meaningful interactions.
-
-### Improve Customer Satisfaction
-
-- Analyze recurring themes within mixed and negative reviews.
-- Use customer feedback to identify product or service issues.
-- Establish a feedback loop to address recurring concerns and encourage dissatisfied customers to re-engage.
-- Target an improvement in the average customer rating from **3.7 toward 4.0+**.
-
----
-
-## 📊 Dashboard
-
-### Overview
-
-![Overview](Screenshots/overview.png)
-
-### Conversion Analysis
-
-![Conversion Details](Screenshots/conversion_details.png)
-
-### Social Media Analysis
-
-![Social Media Details](Screenshots/social_media_details.png)
-
-### Customer Review Analysis
-
-![Customer Review Details](Screenshots/customer_review_details.png)
-
----
-
-## 🛠️ Tools & Technologies
-
-- **SQL** — Data cleaning, transformation & analysis
-- **Python** — NLP & sentiment analysis
-- **Power BI** — Data visualization & dashboard development
-- **CSV** — Processed analytical dataset
-- **GitHub**
-
----
-
-## 📁 Project Structure
-
-```text
-marketing-campaign-analytics/
-│
-├── sql/
-│   └── cleaning_data.sql
-│
-├── python/
-│   └── sentiment_analysis.py
-│
-├── data/
-│   └── fact_customer_reviews_with_sentiment.csv
-│
-├── dashboard/
-│   ├── dashboard.pbix
-│   └── dashboard.pdf
-│
-└── Screenshots/
-│   ├── overview.png
-│   ├── conversion_details.png
-│   ├── social_media_details.png
-│   └── customer_review_details.png
-│
-└── README.md
-
-<h2><a class="anchor" id="author- &amp;-contact"></a>Author &amp; Contact</h2>
-
-**Vani Sharma**   
-Data Analyst  
-📧 Email: vanisharma2014@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/vani-sharma-82a790221/)
-
+**Tools:** SQL • Python • Power BI • Excel
