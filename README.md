@@ -145,6 +145,7 @@ A sentiment and ratings analysis view:
 
 ## 🛠️ Tools & Technologies
 ```
+<p>
 <table>
 <thead>
 <tr>
@@ -191,7 +192,7 @@ A sentiment and ratings analysis view:
 </tr>
 </tbody>
 </table>
-
+</p>
 
 <h2><a class="anchor" id="project-structure"></a>📁 Project Structure</h2>
 
