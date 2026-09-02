@@ -62,7 +62,7 @@ Power BI
 Business Insights & Recommendations
 ```
 
-####1️⃣ SQL Server — Data Preparation & Analysis
+#### 1️⃣ SQL Server — Data Preparation & Analysis
 
 SQL Server was used to:
 
@@ -73,7 +73,7 @@ SQL Server was used to:
 - Analyze marketing performance across products and time periods
 - Prepare data for downstream analysis
 
-####2️⃣ Python — Customer Sentiment Analysis
+#### 2️⃣ Python — Customer Sentiment Analysis
 
 Python was used to analyze customer reviews using NLTK VADER Sentiment Analysis.
 
@@ -85,7 +85,7 @@ The process includes:
 - Classifying reviews into sentiment categories
 - Exporting the enriched dataset for Power BI
 
-####3️⃣ Power BI — Dashboard & Visualization
+#### 3️⃣ Power BI — Dashboard & Visualization
 
 Power BI was used to create an interactive dashboard covering:
 
@@ -96,7 +96,7 @@ Power BI was used to create an interactive dashboard covering:
 - Product performance
 - Monthly and yearly trends
 
-####4️⃣ Business Analysis
+#### 4️⃣ Business Analysis
 
 The final analysis compares performance across 2023, 2024, and 2025, with a deeper focus on identifying the reasons behind the decline in 2025.
 
