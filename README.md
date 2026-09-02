@@ -140,89 +140,42 @@ A sentiment and ratings analysis view:
 | **Increase Conversion Rates** | **Target high-performing product categories** — focus marketing efforts on products with demonstrated high conversion rates, such as Kayaks, Ski Boots, and Baseball Gloves. Run seasonal promotions or personalized campaigns during peak months (e.g. January and September) to capitalize on these trends. |
 | **Enhance Customer Engagement** | **Revitalize the content strategy** — to turn around declining views and low interaction rates, experiment with more engaging formats such as interactive videos or user-generated content. Boost engagement further by optimizing call-to-action placement in social media and blog content, particularly during historically lower-engagement months (September–December). |
 | **Improve Customer Feedback Scores** | **Address mixed and negative feedback** — implement a feedback loop where mixed and negative reviews are analyzed to identify common issues. Develop improvement plans to address these concerns, follow up with dissatisfied customers to resolve issues, and encourage re-rating, aiming to move average ratings closer to the 4.0 target. |
-
-
-
 ## 🛠️ Tools & Technologies
-```
-<p>
-<table>
-<thead>
-<tr>
-<th>Technology</th>
-<th>Usage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>🗄️ SQL Server</td>
-<td>Data storage, cleaning, transformation, and analysis</td>
-</tr>
-<tr>
-<td>🐍 Python</td>
-<td>Customer review sentiment analysis</td>
-</tr>
-<tr>
-<td>🐼 Pandas</td>
-<td>Data manipulation and processing</td>
-</tr>
-<tr>
-<td>🔌 PyODBC</td>
-<td>SQL Server–Python connection</td>
-</tr>
-<tr>
-<td>💬 NLTK / VADER</td>
-<td>Sentiment analysis</td>
-</tr>
-<tr>
-<td>📊 Power BI</td>
-<td>Data modeling, DAX, KPI analysis, and dashboard development</td>
-</tr>
-<tr>
-<td>🔄 Power Query</td>
-<td>Data transformation</td>
-</tr>
-<tr>
-<td>📗 Excel</td>
-<td>Data preparation and validation</td>
-</tr>
-<tr>
-<td>🌐 Git &amp; GitHub</td>
-<td>Version control and project management</td>
-</tr>
-</tbody>
-</table>
-</p>
 
-<h2><a class="anchor" id="project-structure"></a>📁 Project Structure</h2>
+| Technology | Usage |
+| :--- | :--- |
+| 🗄️ SQL Server | Data storage, cleaning, transformation, and analysis |
+| 🐍 Python | Customer review sentiment analysis |
+| 🐼 Pandas | Data manipulation and processing |
+| 🔌 PyODBC | SQL Server–Python connection |
+| 💬 NLTK / VADER | Sentiment analysis |
+| 📊 Power BI | Data modeling, DAX, KPI analysis, and dashboard development |
+| 🔄 Power Query | Data transformation |
+| 📗 Excel | Data preparation and validation |
+| 🌐 Git & GitHub | Version control and project management |
 
-```
+---
+
+## 📁 Project Structure
+
+```text
 marketing-campaign-analytics/
-│
 ├── README.md
-│
 ├── sql/
 │   └── cleaning_data.sql
-│
 ├── python/
 │   └── sentiment_analysis.py
-│
 ├── data/
 │   └── fact_customer_reviews_with_sentiment.csv
-│
 ├── dashboard/
 │   ├── dashboard.pbix
 │   └── dashboard.pdf
-│
 └── Screenshots/
     ├── overview.png
-    ├──conversion_details.png
+    ├── conversion_details.png
     ├── social-media-details.png
-    ├── customer-review-details.png
-    └── goals-and-actions.png
-
-```
-
+    └──customer-review-details.png
+    
 ## 👤 Author
 
 **Vani Sharma**
