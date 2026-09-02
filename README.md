@@ -1,7 +1,7 @@
 
 # 📊 Marketing Campaign Analytics
 
-An end-to-end analytics project built to help an online retail business diagnose declining customer engagement and conversion rates, and to guide data-driven improvements to its marketing strategy.
+An end-to-end analytics project built to help an online retail business diagnose declining customer engagement and conversion rates and to guide data-driven improvements to its marketing strategy.
 
 The project combines SQL Server (data storage & analysis), Python (customer review sentiment analysis) and Power BI (interactive dashboarding) into a single analytics pipeline.
 
@@ -98,7 +98,7 @@ Power BI was used to create an interactive dashboard covering:
 
 #### 4️⃣ Business Analysis
 
-The final analysis compares performance across 2023, 2024, and 2025, with a deeper focus on identifying the reasons behind the decline in 2025.
+The final analysis compares performance across 2023, 2024 and 2025, with a deeper focus on identifying the reasons behind the decline in 2025.
 
 ## 🐍 Python — Sentiment Analysis 
 Customer reviews were analyzed using NLTK's VADER sentiment analyzer
@@ -122,12 +122,12 @@ fact_customer_reviews_with_sentiment.csv
 
 ## 🗂️ Dashboard Structure
 
-The Power BI report contains three interconnected pages, all filterable by **Year (2023 / 2024 / 2025)**, **Month**, and **Product**.
+The Power BI report contains three interconnected pages, all filterable by **Year (2023 / 2024 / 2025)**, **Month** and **Product**.
 
 ### 1️⃣ Overview
 A single-page summary combining the three focus areas:
-- **Conversion** — Overall Conversion Rate KPI, Conversion Rate by Month (trend), and Conversion Rate by Product (ranked bar chart).
-- **Social Media** — Views, Clicks, and Likes KPIs with a funnel-style breakdown, plus Likes/Views/Clicks trend by month.
+- **Conversion** — Overall Conversion Rate KPI, Conversion Rate by Month (trend) and Conversion Rate by Product (ranked bar chart).
+- **Social Media** — Views, Clicks, and Likes KPIs with a funnel-style breakdown plus Likes/Views/Clicks trend by month.
 - **Customer Reviews** — Average Rating KPI and Rating (Average) trend by month.
 ![Overview](Screenshots/overview.png)
 
