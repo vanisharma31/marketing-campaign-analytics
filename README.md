@@ -6,34 +6,19 @@ An end-to-end analytics project built to help an online retail business diagnose
 The project combines SQL Server (data storage & analysis), Python (customer review sentiment analysis) and Power BI (interactive dashboarding) into a single analytics pipeline.
 
 ## 📑 Table of Contents
-* <a href="#project-at-glance">Project at Glance</a>
 * <a href="#business-problem">Business Problem</a>
 * <a href="#project-goals">Project Goals</a>
 * <a href="#project-workflow">Project Workflow</a>
 * <a href="#sql-server-data-preparation- &amp; -analysis">SQl Server Data Preparation &amp; Analysis</a>
 * <a href="#python-sentiment-analysis">Python - Sentiment Analysis</a>
 * <a href="#dashboard-structure">Dashboard Structure</a>
-* <a href="#key-insights">Key Insights</a>
+* <a href="#insights- &amp; - key-findings">Insights- &amp; -key-findings</a>
 * <a href="#goals- &amp; -recommended-actions">Goals &amp; Recommended Actions</a>
 * <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
 * <a href="#project-structure">Project Structure</a>
 * <a href="#author- &amp;-contact">Author \& Contact</a>
 
-<h2><a class="anchor" id="project-at-glance"></a>📌Project at Glance</h2>
-This project analyzes marketing and customer data for an online retail business experiencing declining engagement and conversion rates.
 
-The analysis combines SQL Server for data preparation and business analysis, Python for customer review sentiment analysis and Power BI for interactive reporting.
-### 📌 Key Findings
-
-| Metric | Finding |
-|---|---:|
-| 📉 **Conversion Rate** | Declined from **~11.4% (2023) → ~8.4% (2025)** |
-| 👀 **Views** | Declined from **~50L (2023) → ~11L (2025)** |
-| ⭐ **Average Rating** | Declined from **3.73 → 3.66** |
-| 💬 **Reviews Analyzed** | **1,363** |
-| 📊 **Overall Conversion Rate** | **9.45%** |
-
-The analysis indicates that the decline is driven primarily by shrinking top-of-funnel traffic and engagement, rather than conversion mechanics alone.
 
 <h2><a class="anchor" id="business-problem"></a>📌Business Problem</h2>
 
@@ -93,13 +78,14 @@ The project follows an end-to-end data analytics workflow:
 
 
 <h2><a class="anchor" id="sql-server-data-preparation- &amp; -analysis"></a> 🗄️ SQL Server - Data Preparation &amp; Analysis </h2>
-Used SQL Server to clean, transform, integrate, and analyze marketing data.
+Used SQL Server to:
 
-- Cleaned duplicates, missing values, inconsistent text, and dates.
-- Used JOINs to combine customer and geographic data.
-- Created price categories using CASE statements.
-- Used CTEs and window functions for deduplication and missing-value handling.
-- Prepared analysis-ready datasets for Python and Power BI.
+- Clean and transform customer, marketing, engagement and review data
+- Integrate datasets using JOINs
+- Identify duplicates using CTEs and ROW_NUMBER()
+- Handle missing values using window functions and COALESCE()
+- Create analytical features using CASE and string/date functions
+- Prepare datasets for conversion, engagement, and customer journey analysis
 
 <h2><a class="anchor" id="python-sentiment-analysis"></a> 🐍 Python - Sentiment Analysis </h2>
 Customer reviews were analyzed using NLTK's VADER sentiment analyzer
@@ -163,12 +149,22 @@ A sentiment and ratings analysis view:
 ![Customer Review Details](Screenshots/customer_review_details.png)
 
 
-<h2><a class="anchor" id="key-insights"></a> 🧠 Key Insights </h2>
+<h2><a class="anchor" id="key-insights"></a> 🧠 Insights &amp; Key Findings </h2>
 
 - **Conversion rate has declined year over year**, from an average of ~11.4% (2023) to ~8.4% (2025), alongside a sharp drop in overall Views (from ~50L in 2023 to ~11L in 2025) - pointing to shrinking top-of-funnel traffic as a core driver of lower conversions.
 - **Engagement metrics (Views, Clicks, Likes) have fallen in tandem**, suggesting the issue starts with content reach/visibility rather than on-site conversion mechanics alone.
 - **Average customer rating has also trended down slightly** (3.73 → 3.66), with a consistent share of Negative and Mixed Negative sentiment each year - useful for identifying specific products or experiences to prioritize for improvement.
 - **Product-level conversion rates vary widely**, highlighting opportunities to reallocate marketing spend toward consistently higher-converting products.
+
+### 📌 Key Findings
+
+| Metric | Finding |
+|---|---:|
+| 📉 **Conversion Rate** | Declined from **~11.4% (2023) → ~8.4% (2025)** |
+| 👀 **Views** | Declined from **~50L (2023) → ~11L (2025)** |
+| ⭐ **Average Rating** | Declined from **3.73 → 3.66** |
+| 💬 **Reviews Analyzed** | **1,363** |
+| 📊 **Overall Conversion Rate** | **9.45%** |
 
 
 <h2><a class="anchor" id="goals- &amp; -recommended-actions"></a> ✅Goals &amp; Recommended Actions </h2>
