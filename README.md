@@ -43,7 +43,6 @@ An online retail business has launched several new marketing campaigns but is se
 | **Enhance Customer Engagement** | Determine which types of marketing content (Blog, Social Media, Video) drive the highest engagement to inform content strategy. |
 | **Improve Customer Feedback Scores** | Surface recurring themes in customer reviews (positive & negative) to guide product and service improvements. |
 
----
 
 ## 🔄 Project Workflow
 
@@ -51,7 +50,6 @@ An online retail business has launched several new marketing campaigns but is se
 2. **Python** (`python/sentiment_analysis.py`) pulls customer reviews from SQL Server, runs sentiment analysis, and exports an enriched dataset with sentiment labels.
 3. **Power BI** (`dashboard/`) imports the enriched data and presents it across three interactive report pages.
 
----
 
 ## 🐍 Python — Sentiment Analysis (`python/sentiment_analysis.py`)
 
