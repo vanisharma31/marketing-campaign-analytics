@@ -1,5 +1,5 @@
 
-# 📊 Marketing Campaign Analytics
+#  📊 Marketing Campaign Analytics
 
 An end-to-end analytics project built to help an online retail business diagnose declining customer engagement and conversion rates, and to guide data-driven improvements to their marketing strategy. The project combines **SQL** (data storage), **Python** (customer review sentiment analysis), and **Power BI** (interactive dashboard) into a single pipeline.
 
