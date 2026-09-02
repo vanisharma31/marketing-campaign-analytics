@@ -18,6 +18,21 @@ The project combines SQL Server (data storage & analysis), Python (customer revi
 * <a href="#project-structure">Project Structure</a>
 * <a href="#author- &amp;-contact">Author \& Contact</a>
 
+<h2><a class="anchor" id="project-at-glance"></a>📌Project at Glance</h2>
+This project analyzes marketing and customer data for an online retail business experiencing declining engagement and conversion rates.
+
+The analysis combines SQL Server for data preparation and business analysis, Python for customer review sentiment analysis and Power BI for interactive reporting.
+### 📌 Key Findings
+
+| Metric | Finding |
+|---|---:|
+| 📉 **Conversion Rate** | Declined from **~11.4% (2023) → ~8.4% (2025)** |
+| 👀 **Views** | Declined from **~50L (2023) → ~11L (2025)** |
+| ⭐ **Average Rating** | Declined from **3.73 → 3.66** |
+| 💬 **Reviews Analyzed** | **1,363** |
+| 📊 **Overall Conversion Rate** | **9.45%** |
+
+The analysis indicates that the decline is driven primarily by shrinking top-of-funnel traffic and engagement, rather than conversion mechanics alone.
 
 <h2><a class="anchor" id="business-problem"></a>📌Business Problem</h2>
 
