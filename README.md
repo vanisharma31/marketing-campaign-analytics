@@ -8,7 +8,7 @@ The project combines SQL Server (data storage & analysis), Python (customer revi
 ## 📑 Table of Contents
 
 * <a href="#business-problem">Business Problem</a>
-* <a href="#project-goal">Project Goal</a>
+* <a href="#project-goals">Project Goals</a>
 * <a href="#project-workflow">Project Workflow</a>
 * <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
 * <a href="#project-structure">Project Structure</a>
