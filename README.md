@@ -77,7 +77,7 @@ A detailed analysis of conversion performance across products and time:
 - **Conversion Rate by Product** to compare product-level conversion performance.
 - Year-over-year comparison of conversion performance.
 - Identification of high- and low-performing products and periods.
-![Conversion Details](Screenshots/conversion_detail.png)
+![Conversion Details](Screenshots/conversion_details.png)
 
 ### 3️⃣ Social Media Details
 A deep dive into marketing content performance:
