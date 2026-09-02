@@ -21,7 +21,7 @@ Tools & Technologies
 Repository Structure
 Author
 
----
+
 
 ## 📌 Business Problem
 
@@ -34,7 +34,7 @@ An online retail business has launched several new marketing campaigns but is se
 
 The business needs a detailed analysis to identify what's going wrong and where to focus improvement efforts.
 
----
+
 
 ## 🎯 Project Goals
 
