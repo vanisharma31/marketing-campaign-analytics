@@ -149,7 +149,7 @@ A sentiment and ratings analysis view:
 ![Customer Review Details](Screenshots/customer_review_details.png)
 
 
-<h2><a class="anchor" id="insights- &amp; -key-findings"></a> 🧠 Insights &amp; Key Findings </h2>
+<h2><a class="anchor" id="s"insights- &amp; -key-findings></a> 🧠 Insights &amp; Key Findings </h2>
 
 - **Conversion rate has declined year over year**, from an average of ~11.4% (2023) to ~8.4% (2025), alongside a sharp drop in overall Views (from ~50L in 2023 to ~11L in 2025) - pointing to shrinking top-of-funnel traffic as a core driver of lower conversions.
 - **Engagement metrics (Views, Clicks, Likes) have fallen in tandem**, suggesting the issue starts with content reach/visibility rather than on-site conversion mechanics alone.
