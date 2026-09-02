@@ -194,9 +194,8 @@ A sentiment and ratings analysis view:
 
 
 
-## 📁 Repository Structure
-
-```
+## 📁 Project Structure
+```text
 marketing-campaign-analytics/
 │
 ├── README.md
