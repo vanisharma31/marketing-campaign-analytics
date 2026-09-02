@@ -11,7 +11,7 @@ The project combines SQL Server (data storage & analysis), Python (customer revi
 * <a href="#project-goals">Project Goals</a>
 * <a href="#project-workflow">Project Workflow</a>
 * <a href="#python-sentiment-analysis">Python - Sentiment Analysis</a>
-* <a href="#final-recommendations">Final Recommendations</a>
+* <a href="#dashboard-structure">Dashboard Structure</a>
 * <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
 * <a href="#project-structure">Project Structure</a>
 * <a href="#analysis- &amp;-key-findings">Analysis \& Key Findings</a>
@@ -111,7 +111,7 @@ Power BI was used to create an interactive dashboard covering:
 
 The final analysis compares performance across 2023, 2024 and 2025, with a deeper focus on identifying the reasons behind the decline in 2025.
 
-## 🐍 Python — Sentiment Analysis 
+<h2><a class="anchor" id="python-sentiment-analysis"></a> 🐍 Python — Sentiment Analysis </h2>
 Customer reviews were analyzed using NLTK's VADER sentiment analyzer
 
 
