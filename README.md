@@ -176,8 +176,11 @@ marketing-campaign-analytics/
     ├── social-media-details.png
     └──customer-review-details.png
 ```
-    
-## 👤 Author
 
-**Vani Sharma**
-🔗 [GitHub Repository](https://github.com/vanisharma31/marketing-campaign-analytics/)
+<h2><a class="anchor" id="author- &amp;-contact"></a>Author &amp; Contact</h2>
+
+**Vani Sharma**   
+Data Analyst  
+📧 Email: vanisharma2014@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/vani-sharma-82a790221/)
+
