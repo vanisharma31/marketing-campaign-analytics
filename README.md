@@ -45,31 +45,34 @@ An online retail business has launched several new marketing campaigns but is se
 The project follows an end-to-end data analytics workflow:
 
 ```text
-Raw Data
-   │
-   ▼
-SQL Server
-(Data Storage & Analysis)
-   │
-   ▼
-Python
-(Sentiment Analysis)
-   │
-   ▼
-Enriched Dataset
-   │
-   ▼
-Power BI
-(Dashboard & Visualization)
-   │
-   ▼
-2023–2025 Trend Analysis
-   │
-   ▼
-2025 Deep Dive
-   │
-   ▼
-Business Insights & Recommendations
+                 Raw Data
+                    │
+                    ▼
+             ┌──────────────┐
+             │  SQL Server  │
+             │ Cleaning &   │
+             │   Analysis   │
+             └──────┬───────┘
+                    │
+                    ▼
+             ┌──────────────┐
+             │    Python    │
+             │   VADER NLP  │
+             │  Sentiment   │
+             └──────┬───────┘
+                    │
+                    ▼
+          Enriched Customer Data
+                    │
+                    ▼
+             ┌──────────────┐
+             │   Power BI   │
+             │ DAX + Data   │
+             │   Modeling   │
+             └──────┬───────┘
+                    │
+                    ▼
+       Trends → Insights → Recommendations
 ```
 
 #### 1️⃣ SQL Server - Data Preparation & Analysis
