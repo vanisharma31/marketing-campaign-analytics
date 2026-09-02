@@ -195,7 +195,7 @@ A sentiment and ratings analysis view:
 
 
 ## 📁 Project Structure
-```text
+```
 marketing-campaign-analytics/
 │
 ├── README.md
@@ -220,7 +220,7 @@ marketing-campaign-analytics/
     ├── customer-review-details.png
     └── goals-and-actions.png
 
-
+```
 
 ## 👤 Author
 
