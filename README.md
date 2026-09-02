@@ -146,46 +146,50 @@ A sentiment and ratings analysis view:
 ## 🛠️ Tools & Technologies
 ```
 <table>
-  <tr>
-    <th>Technology</th>
-    <th>Usage</th>
-  </tr>
-  <tr>
-    <td>🗄️ SQL Server</td>
-    <td>Data storage, cleaning, transformation, and analysis</td>
-  </tr>
-  <tr>
-    <td>🐍 Python</td>
-    <td>Customer review sentiment analysis</td>
-  </tr>
-  <tr>
-    <td>🐼 Pandas</td>
-    <td>Data manipulation and processing</td>
-  </tr>
-  <tr>
-    <td>🔌 PyODBC</td>
-    <td>SQL Server–Python connection</td>
-  </tr>
-  <tr>
-    <td>💬 NLTK / VADER</td>
-    <td>Sentiment analysis</td>
-  </tr>
-  <tr>
-    <td>📊 Power BI</td>
-    <td>Data modeling, DAX, KPI analysis, and dashboard development</td>
-  </tr>
-  <tr>
-    <td>🔄 Power Query</td>
-    <td>Data transformation</td>
-  </tr>
-  <tr>
-    <td>📗 Excel</td>
-    <td>Data preparation and validation</td>
-  </tr>
-  <tr>
-    <td>🌐 Git &amp; GitHub</td>
-    <td>Version control and project management</td>
-  </tr>
+<thead>
+<tr>
+<th>Technology</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🗄️ SQL Server</td>
+<td>Data storage, cleaning, transformation, and analysis</td>
+</tr>
+<tr>
+<td>🐍 Python</td>
+<td>Customer review sentiment analysis</td>
+</tr>
+<tr>
+<td>🐼 Pandas</td>
+<td>Data manipulation and processing</td>
+</tr>
+<tr>
+<td>🔌 PyODBC</td>
+<td>SQL Server–Python connection</td>
+</tr>
+<tr>
+<td>💬 NLTK / VADER</td>
+<td>Sentiment analysis</td>
+</tr>
+<tr>
+<td>📊 Power BI</td>
+<td>Data modeling, DAX, KPI analysis, and dashboard development</td>
+</tr>
+<tr>
+<td>🔄 Power Query</td>
+<td>Data transformation</td>
+</tr>
+<tr>
+<td>📗 Excel</td>
+<td>Data preparation and validation</td>
+</tr>
+<tr>
+<td>🌐 Git &amp; GitHub</td>
+<td>Version control and project management</td>
+</tr>
+</tbody>
 </table>
 
 
