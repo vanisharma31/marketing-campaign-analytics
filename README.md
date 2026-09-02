@@ -193,8 +193,8 @@ A sentiment and ratings analysis view:
 </table>
 
 
+<h2><a class="anchor" id="project-structure"></a>📁 Project Structure</h2>
 
-## 📁 Project Structure
 ```
 marketing-campaign-analytics/
 │
