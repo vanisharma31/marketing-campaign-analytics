@@ -157,26 +157,30 @@ A sentiment and ratings analysis view:
 
 ```
 marketing-campaign-analytics/
-├── sql/           # Database schema / queries for the source data
-├── python/        # sentiment_analysis.py — VADER-based review sentiment scoring
-├── data/          # Source / exported datasets (incl. sentiment-enriched reviews)
-├── dashboard/      # Power BI (.pbix) report
-├── Screenshots/    # Dashboard page screenshots
-└── README.md
-```
+│
+├── README.md
+│
+├── sql/
+│   └── cleaning_data.sql
+│
+├── python/
+│   └── sentiment_analysis.py
+│
+├── data/
+│   └── fact_customer_reviews_with_sentiment.csv
+│
+├── dashboard/
+│   ├── dashboard.pbix
+│   └── dashboard.pdf
+│
+└── Screenshots/
+    ├── overview.png
+    ├──conversion_details.png
+    ├── social-media-details.png
+    ├── customer-review-details.png
+    └── goals-and-actions.png
 
----
 
-## 🚀 How to Use
-
-1. Clone or download this repository.
-2. **(Optional — refresh sentiment data)** Set up the `marketingcampaign` SQL Server database, update the connection string in `python/sentiment_analysis.py`, and run it to regenerate `fact_customer_reviews_with_sentiment.csv`.
-3. Open the `.pbix` file in the `dashboard/` folder using **Power BI Desktop**.
-4. Use the **Year** and **Month** slicers at the top of each page to filter the analysis.
-5. Use the **ProductName** slicer on the left to isolate individual products.
-6. Navigate between the **Overview**, **Social Media Details**, and **Customer Review Details** pages using the report tabs.
-
----
 
 ## 👤 Author
 
