@@ -7,9 +7,19 @@ The project combines SQL Server (data storage & analysis), Python (customer revi
 
 ## 📑 Table of Contents
 
+* <a href="#business-problem">Business Problem</a>
+* <a href="#project-goal">Project Goal</a>
+* <a href="#project-workflow">Project Workflow</a>
+* <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
+* <a href="#project-structure">Project Structure</a>
+* <a href="#analysis- &amp;-key-findings">Analysis \& Key Findings</a>
+* <a href="#power-bi-dashboards">Power BI Dashboards</a>
+* <a href="#final-recommendations">Final Recommendations</a>
+* <a href="#author- &amp;-contact">Author \& Contact</a>
 
 
-## 📌 Business Problem
+<h2><a class="anchor" id="business-problem"></a>📌Business Problem</h2>
+
 
 An online retail business has launched several new marketing campaigns but is seeing:
 
@@ -20,8 +30,7 @@ An online retail business has launched several new marketing campaigns but is se
 
 
 
-
-## 🎯 Project Goals
+<h2><a class="anchor" id="project-goals"></a> 🎯 Project Goals </h2>
 
 | Goal | Insight Delivered |
 |---|---|
@@ -30,7 +39,7 @@ An online retail business has launched several new marketing campaigns but is se
 | **Improve Customer Feedback Scores** | Surface recurring themes in customer reviews (positive & negative) to guide product and service improvements. |
 
 
-## 🔄 Project Workflow
+<h2><a class="anchor" id="project-workflow"></a> 🔄 Project Workflow </h2>
 
 The project follows an end-to-end data analytics workflow:
 
