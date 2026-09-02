@@ -34,16 +34,16 @@ At the same time, significant investments in marketing are not generating the ex
 * Analyze conversion trends over time
 * Identify high- and low-performing products
 
-### Insight
+#### Insight
 
 Identify major funnel drop-off points and recommend strategies to improve the journey from website visit to purchase.
 
 
-## 2. 📱 Enhance Customer Engagement
+### 2. 📱 Enhance Customer Engagement
 
 **Goal:** Determine which types of marketing content drive the highest engagement.
 
-### Analysis
+#### Analysis
 
 * Analyze views, clicks, and likes
 * Compare engagement across content types
@@ -51,16 +51,16 @@ Identify major funnel drop-off points and recommend strategies to improve the jo
 * Analyze engagement trends over time
 * Identify periods of declining engagement
 
-### Insight
+#### Insight
 
 Use engagement patterns to develop more effective content strategies and focus marketing efforts on content that generates stronger customer interaction.
 
 
-## 3. 💬 Improve Customer Feedback Scores
+### 3. 💬 Improve Customer Feedback Scores
 
 **Goal:** Understand common themes in customer reviews and provide actionable insights.
 
-### Analysis
+#### Analysis
 
 * Analyze customer ratings
 * Perform sentiment analysis on customer reviews
@@ -68,12 +68,12 @@ Use engagement patterns to develop more effective content strategies and focus m
 * Identify recurring customer concerns
 * Compare sentiment with customer ratings
 
-### Insight
+#### Insight
 
 Use customer feedback to identify product and service strengths while addressing recurring issues affecting customer satisfaction.
 
 
-# 🔄 Project Workflow
+## 🔄 Project Workflow
 
 ```text
                     RAW DATA
@@ -113,7 +113,7 @@ Use customer feedback to identify product and service strengths while addressing
 ```
 
 
-# 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 | Tool             | Purpose                                                      |
 | ---------------- | ------------------------------------------------------------ |
@@ -125,13 +125,13 @@ Use customer feedback to identify product and service strengths while addressing
 
 
 
-# 🔍 Analysis
+## 🔍 Analysis
 
-## SQL — Data Cleaning & Analysis
+### SQL — Data Cleaning & Analysis
 
 SQL was used to clean, transform and analyze the marketing campaign data.
 
-### Key Activities
+#### Key Activities
 
 * Data cleaning and transformation
 * Handling missing and inconsistent values
@@ -142,7 +142,7 @@ SQL was used to clean, transform and analyze the marketing campaign data.
 * Marketing engagement analysis
 * KPI generation for Power BI
 
-### Key Metrics
+#### Key Metrics
 
 * Conversion Rate
 * Website Views
@@ -153,11 +153,11 @@ SQL was used to clean, transform and analyze the marketing campaign data.
 * Product Performance
 
 
-## Python — Sentiment Analysis
+### Python — Sentiment Analysis
 
 Python was used to analyze customer reviews and understand customer sentiment.
 
-### Analysis Included
+#### Analysis Included
 
 * Text preprocessing
 * Sentiment scoring
@@ -169,18 +169,18 @@ Python was used to analyze customer reviews and understand customer sentiment.
 This combines **quantitative marketing performance metrics** with **qualitative customer feedback** to provide a more comprehensive view of business performance.
 
 
-# 📊 Power BI Dashboard
+## 📊 Power BI Dashboard
 
 The Power BI dashboard provides an interactive view of marketing performance, customer engagement, conversion, and customer feedback.
 
-## 🏠 Overview
+### 🏠 Overview
 
 Provides a high-level summary of marketing performance and key business KPIs.
 
 ![Overview](Screenshots/overview.png)
 
 
-## 📈 Conversion Analysis
+### 📈 Conversion Analysis
 
 Analyzes:
 
@@ -193,7 +193,7 @@ Analyzes:
 ![Conversion Analysis](Screenshots/conversion_details.png)
 
 
-## 📱 Social Media & Engagement Analysis
+### 📱 Social Media & Engagement Analysis
 
 Analyzes:
 
@@ -206,7 +206,7 @@ Analyzes:
 ![Social Media Analysis](Screenshots/social_media_details.png)
 
 
-## 💬 Customer Review Analysis
+### 💬 Customer Review Analysis
 
 Analyzes:
 
@@ -218,16 +218,16 @@ Analyzes:
 ![Customer Review Analysis](Screenshots/customer_review_details.png)
 
 
-# 📌 Key Findings
+## 📌 Key Findings
 
-### Conversion Performance
+#### Conversion Performance
 
 * Overall conversion rate: **9.45%**
 * Monthly conversion rate ranged from **5.98% to 16.46%**
 * **Hockey Stick (14.71%)**, **Ski Boots (14.29%)**, and **Baseball Glove (13.54%)** were among the highest-converting products.
 * Significant drop-offs were observed across stages of the customer conversion funnel.
 
-### Customer Engagement
+#### Customer Engagement
 
 * Approximately **90.79M views**
 * **17.85M clicks**
@@ -235,7 +235,7 @@ Analyzes:
 * Engagement declined during later months.
 * The gap between views and deeper interactions indicates opportunities to improve content and calls-to-action.
 
-### Customer Feedback
+#### Customer Feedback
 
 * Average customer rating: **3.69 / 5**
 * **1,363 customer reviews** analyzed
@@ -246,9 +246,9 @@ Sentiment analysis helped identify recurring customer concerns and areas for imp
 
 
 
-# 💡 Business Recommendations
+## 💡 Business Recommendations
 
-### 📈 Improve Conversion
+#### 📈 Improve Conversion
 
 * Identify and address major funnel drop-off points.
 * Optimize product pages and calls-to-action.
@@ -256,14 +256,14 @@ Sentiment analysis helped identify recurring customer concerns and areas for imp
 * Investigate periods with unusually low conversion rates.
 * Use customer feedback to identify potential barriers to purchase.
 
-### 📱 Improve Engagement
+#### 📱 Improve Engagement
 
 * Prioritize high-performing content types.
 * Experiment with different content formats and calls-to-action.
 * Analyze declining engagement periods.
 * Allocate marketing resources toward content generating stronger interactions.
 
-### 💬 Improve Customer Satisfaction
+#### 💬 Improve Customer Satisfaction
 
 * Investigate recurring themes in negative reviews.
 * Address common product and service complaints.
@@ -272,7 +272,7 @@ Sentiment analysis helped identify recurring customer concerns and areas for imp
 
 
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 marketing-campaign-analytics/
@@ -300,7 +300,7 @@ marketing-campaign-analytics/
 ```
 
 
-# 📈 Skills Demonstrated
+## 📈 Skills Demonstrated
 
 * SQL Data Cleaning & Transformation
 * Exploratory Data Analysis
