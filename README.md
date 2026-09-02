@@ -31,8 +31,10 @@ An online retail business has launched several new marketing campaigns but is se
 
 
 ## 🔄 Project Workflow
+
 The project follows an end-to-end data analytics workflow:
 
+```text
 Raw Data
    │
    ▼
@@ -58,37 +60,38 @@ Power BI
    │
    ▼
 Business Insights & Recommendations
+
 #### 1️⃣ SQL Server — Data Preparation & Analysis
 
 SQL Server was used to:
 
-Store and manage the source datasets
-Clean and transform the data
-Handle date and data-type conversions
-Perform exploratory analysis
-Analyze marketing performance across products and time periods
-Prepare data for downstream analysis
+- Store and manage the source datasets
+- Clean and transform the data
+- Handle date and data-type conversions
+- Perform exploratory analysis
+- Analyze marketing performance across products and time periods
+- Prepare data for downstream analysis
 #### 2️⃣ Python — Customer Sentiment Analysis
 
 Python was used to analyze customer reviews using NLTK VADER Sentiment Analysis.
 
 The process includes:
 
-Extracting customer review data from SQL Server
-Calculating sentiment scores using VADER
-Combining sentiment scores with customer ratings
-Classifying reviews into sentiment categories
-Exporting the enriched dataset for Power BI
+- Extracting customer review data from SQL Server
+- Calculating sentiment scores using VADER
+- Combining sentiment scores with customer ratings
+- Classifying reviews into sentiment categories
+- Exporting the enriched dataset for Power BI
 #### 3️⃣ Power BI — Dashboard & Visualization
 
 Power BI was used to create an interactive dashboard covering:
 
-Conversion performance
-Social media engagement
-Customer ratings
-Customer sentiment
-Product performance
-Monthly and yearly trends
+- Conversion performance
+- Social media engagement
+- Customer ratings
+- Customer sentiment
+- Product performance
+- Monthly and yearly trends
 #### 4️⃣ Business Analysis
 
 The final analysis compares performance across 2023, 2024, and 2025, with a deeper focus on identifying the reasons behind the decline in 2025.
