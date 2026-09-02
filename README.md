@@ -176,7 +176,6 @@ A sentiment and ratings analysis view:
 | **Improve Customer Feedback Scores** | **Address mixed and negative feedback** - implement a feedback loop where mixed and negative reviews are analyzed to identify common issues. Develop improvement plans to address these concerns, follow up with dissatisfied customers to resolve issues and encourage re-rating, aiming to move average ratings closer to the 4.0 target. |
 
 <h2><a class="anchor" id="tools- &amp;-technologies"></a> 🛠️ Tools &amp; Technologies </h2>
-## 🛠️ Tools & Technologies
 
 | Technology | Usage |
 | :--- | :--- |
