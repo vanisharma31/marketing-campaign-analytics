@@ -6,20 +6,6 @@ An end-to-end analytics project built to help an online retail business diagnose
 The project combines SQL Server (data storage & analysis), Python (customer review sentiment analysis) and Power BI (interactive dashboarding) into a single analytics pipeline.
 
 ## 📑 Table of Contents
-Business Problem
-Project Goals
-Project Workflow
-Python — Sentiment Analysis
-Dashboard Structure
-Overview
-Social Media Details
-Customer Review Details
-Goals & Recommended Actions
-Key Insights
-Goals & Recommended Actions
-Tools & Technologies
-Repository Structure
-Author
 
 
 
@@ -96,25 +82,10 @@ A sentiment and ratings analysis view:
 - Rating (Average) by Month and Sentiment Category (trend lines).
 - Scatter plot of Rating vs. Review Volume by Customer & Sentiment Category, to spot outlier customers/products.
 - Detailed, filterable review table (Review Date, Customer ID, Review Text, Sentiment, Rating).
-
----
-
-## 🖼️ Dashboard Screenshots
-
-**Overview**
-![Overview page](screenshots/overview.png)
-
-**Conversion Details**
-![Conversion Details](screenshots/conversion_details.png)
-
-**Social Media Details**
-![Social Media Details ](screenshots/social_media_details.png)
-
-**Customer Review Details**
-![Customer Review Details](screenshots/customer_review-_etails.png)
+![Customer Review Details](Screenshots/customer_review-_etails.png)
 
 
-*(Full-resolution screenshots are available in the [`Screenshots/`](https://github.com/vanisharma31/marketing-campaign-analytics/tree/main/Screenshots) folder of the repo.)*
+
 
 
 
