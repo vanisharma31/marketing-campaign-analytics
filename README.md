@@ -66,15 +66,29 @@ A single-page summary combining the three focus areas:
 - **Conversion** — Overall Conversion Rate KPI, Conversion Rate by Month (trend), and Conversion Rate by Product (ranked bar chart).
 - **Social Media** — Views, Clicks, and Likes KPIs with a funnel-style breakdown, plus Likes/Views/Clicks trend by month.
 - **Customer Reviews** — Average Rating KPI and Rating (Average) trend by month.
+![Overview](Screenshots/overview.png)
 
-### 2️⃣ Social Media Details
+### 2️⃣ Conversion Details
+
+A detailed analysis of conversion performance across products and time:
+
+- Overall Conversion Rate KPI.
+- **Conversion Rate by Month** to identify monthly trends and changes in performance.
+- **Conversion Rate by Product** to compare product-level conversion performance.
+- Year-over-year comparison of conversion performance.
+- Identification of high- and low-performing products and periods.
+![Conversion Details](Screenshots/conversion_detail.png)
+
+### 3️⃣ Social Media Details
 A deep dive into marketing content performance:
 - Views, Clicks, and Likes KPIs with click-through/like-through funnel visualization.
 - Views, Clicks, and Likes trend by month.
 - **Views by Month split by content type** (Blog, Social Media, Video) to compare channel performance.
 - Product-level matrix of monthly engagement totals, conditionally formatted to spot top/bottom performers at a glance.
+![Social Media Details](Screenshots/social_media_details.png)
 
-### 3️⃣ Customer Review Details
+
+### 4️⃣ Customer Review Details
 A sentiment and ratings analysis view:
 - Average Rating KPI.
 - Number of Customer Reviews by Rating (1–5 star distribution).
