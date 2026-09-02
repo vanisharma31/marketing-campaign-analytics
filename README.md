@@ -1,6 +1,8 @@
-
-
 # 📊 Marketing Campaign & Customer Sentiment Analysis
+
+An online retail business launched multi-channel marketing campaigns across Blog, Social Media, and Video platforms. Despite substantial investment, the business experienced declining visitor engagement, lower conversion rates, and sub-target customer review scores.
+
+This project delivers an end-to-end data analytics and business intelligence solution. It evaluates customer funnel conversion rates, cross-channel social engagement, and customer feedback across 2023–2025, with a primary focal analysis on 2025 performance.
 
 ## Table of Contents
 
@@ -336,6 +338,7 @@ Built an interactive Power BI dashboard to analyze:
 - **Python** — NLP & sentiment analysis
 - **Power BI** — Data visualization & dashboard development
 - **CSV** — Processed analytical dataset
+- **GitHub**
 
 ---
 
@@ -343,8 +346,6 @@ Built an interactive Power BI dashboard to analyze:
 
 ```text
 marketing-campaign-analytics/
-│
-├── README.md
 │
 ├── sql/
 │   └── cleaning_data.sql
@@ -360,10 +361,12 @@ marketing-campaign-analytics/
 │   └── dashboard.pdf
 │
 └── Screenshots/
-    ├── overview.png
-    ├── conversion_details.png
-    ├── social_media_details.png
-    └── customer_review_details.png
+│   ├── overview.png
+│   ├── conversion_details.png
+│   ├── social_media_details.png
+│   └── customer_review_details.png
+│
+└── README.md
 
 <h2><a class="anchor" id="author- &amp;-contact"></a>Author &amp; Contact</h2>
 
