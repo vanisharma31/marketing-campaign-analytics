@@ -20,13 +20,13 @@ At the same time, significant investments in marketing are not generating the ex
 
 
 
-# 🎯 Project Objectives
+## 🎯 Project Objectives
 
-## 1. 📈 Increase Conversion Rates
+### 1. 📈 Increase Conversion Rates
 
 **Goal:** Identify factors impacting conversion rates and provide recommendations to improve them.
 
-### Analysis
+#### Analysis
 
 * Analyze the customer conversion funnel
 * Identify key stages where visitors drop off
