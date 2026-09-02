@@ -12,8 +12,7 @@ The project combines SQL Server (data storage & analysis), Python (customer revi
 * <a href="#project-workflow">Project Workflow</a>
 * <a href="#python-sentiment-analysis">Python - Sentiment Analysis</a>
 * <a href="#dashboard-structure">Dashboard Structure</a>
-* <a href="#analysis- &amp;-key-findings">Analysis \& Key Findings</a>
-* <a href="#power-bi-dashboards">Power BI Dashboards</a>
+* <a href="#key-insights">Key Insights</a>
 * <a href="#Goals-&amp;-recommendations">Final Recommendations</a>
 * <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
 * <a href="#project-structure">Project Structure</a>
@@ -131,7 +130,7 @@ fact_customer_reviews_with_sentiment.csv
 - pyodbc
 - nltk
 
-## 🗂️ Dashboard Structure
+<h2><a class="anchor" id="dashboard-structure"></a> 🗂️ Dashboard Structure </h2>
 
 The Power BI report contains three interconnected pages, all filterable by **Year (2023 / 2024 / 2025)**, **Month** and **Product**.
 
@@ -173,11 +172,7 @@ A sentiment and ratings analysis view:
 ![Customer Review Details](Screenshots/customer_review_details.png)
 
 
-
-
-
-
-## 🧠 Key Insights
+<h2><a class="anchor" id="key-insights"></a> 🧠 Key Insights </h2>
 
 - **Conversion rate has declined year over year**, from an average of ~11.4% (2023) to ~8.4% (2025), alongside a sharp drop in overall Views (from ~50L in 2023 to ~11L in 2025) - pointing to shrinking top-of-funnel traffic as a core driver of lower conversions.
 - **Engagement metrics (Views, Clicks, Likes) have fallen in tandem**, suggesting the issue starts with content reach/visibility rather than on-site conversion mechanics alone.
