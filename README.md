@@ -13,7 +13,7 @@ The project combines SQL Server (data storage & analysis), Python (customer revi
 * <a href="#python-sentiment-analysis">Python - Sentiment Analysis</a>
 * <a href="#dashboard-structure">Dashboard Structure</a>
 * <a href="#key-insights">Key Insights</a>
-* <a href="#Goals-&amp;-recommendations">Final Recommendations</a>
+* <a href="#goals-&amp;-recommendations">Goals &amp; Recommendation</a>
 * <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
 * <a href="#project-structure">Project Structure</a>
 * <a href="#author- &amp;-contact">Author \& Contact</a>
