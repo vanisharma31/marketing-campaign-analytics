@@ -75,43 +75,6 @@ The project follows an end-to-end data analytics workflow:
        Trends → Insights → Recommendations
 ```
 
-#### 1️⃣ SQL Server - Data Preparation & Analysis
-
-SQL Server was used to:
-
-- Store and manage the source datasets
-- Clean and transform the data
-- Handle date and data-type conversions
-- Perform exploratory analysis
-- Analyze marketing performance across products and time periods
-- Prepare data for downstream analysis
-
-#### 2️⃣ Python - Customer Sentiment Analysis
-
-Python was used to analyze customer reviews using NLTK VADER Sentiment Analysis.
-
-The process includes:
-
-- Extracting customer review data from SQL Server
-- Calculating sentiment scores using VADER
-- Combining sentiment scores with customer ratings
-- Classifying reviews into sentiment categories
-- Exporting the enriched dataset for Power BI
-
-#### 3️⃣ Power BI - Dashboard & Visualization
-
-Power BI was used to create an interactive dashboard covering:
-
-- Conversion performance
-- Social media engagement
-- Customer ratings
-- Customer sentiment
-- Product performance
-- Monthly and yearly trends
-
-#### 4️⃣ Business Analysis
-
-The final analysis compares performance across 2023, 2024 and 2025, with a deeper focus on identifying the reasons behind the decline in 2025.
 
 <h2><a class="anchor" id="python-sentiment-analysis"></a> 🐍 Python — Sentiment Analysis </h2>
 Customer reviews were analyzed using NLTK's VADER sentiment analyzer
@@ -129,9 +92,9 @@ The resulting enriched dataset is exported as:
 fact_customer_reviews_with_sentiment.csv
 
 ##### Python Libraries
-- pandas
-- pyodbc
-- nltk
+- pandas - Data manipulation
+- pyodbc - SQL Server connection
+- nltk - Sentiment analysis
 
 <h2><a class="anchor" id="dashboard-structure"></a> 🗂️ Dashboard Structure </h2>
 
