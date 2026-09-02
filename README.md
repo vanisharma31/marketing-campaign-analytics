@@ -31,11 +31,67 @@ An online retail business has launched several new marketing campaigns but is se
 
 
 ## 🔄 Project Workflow
+The project follows an end-to-end data analytics workflow:
 
-1. **SQL Server** stores the raw transactional, social media, and customer review data (`dbo.customer_reviews`, etc.) — see the `sql/` folder.
-2. **Python** (`python/sentiment_analysis.py`) pulls customer reviews from SQL Server, runs sentiment analysis, and exports an enriched dataset with sentiment labels.
-3. **Power BI** (`dashboard/`) imports the enriched data and presents it across three interactive report pages.
+Raw Data
+   │
+   ▼
+SQL Server
+(Data Storage & Analysis)
+   │
+   ▼
+Python
+(Sentiment Analysis)
+   │
+   ▼
+Enriched Dataset
+   │
+   ▼
+Power BI
+(Dashboard & Visualization)
+   │
+   ▼
+2023–2025 Trend Analysis
+   │
+   ▼
+2025 Deep Dive
+   │
+   ▼
+Business Insights & Recommendations
+1️⃣ SQL Server — Data Preparation & Analysis
 
+SQL Server was used to:
+
+Store and manage the source datasets
+Clean and transform the data
+Handle date and data-type conversions
+Perform exploratory analysis
+Analyze marketing performance across products and time periods
+Prepare data for downstream analysis
+2️⃣ Python — Customer Sentiment Analysis
+
+Python was used to analyze customer reviews using NLTK VADER Sentiment Analysis.
+
+The process includes:
+
+Extracting customer review data from SQL Server
+Calculating sentiment scores using VADER
+Combining sentiment scores with customer ratings
+Classifying reviews into sentiment categories
+Exporting the enriched dataset for Power BI
+3️⃣ Power BI — Dashboard & Visualization
+
+Power BI was used to create an interactive dashboard covering:
+
+Conversion performance
+Social media engagement
+Customer ratings
+Customer sentiment
+Product performance
+Monthly and yearly trends
+4️⃣ Business Analysis
+
+The final analysis compares performance across 2023, 2024, and 2025, with a deeper focus on identifying the reasons behind the decline in 2025.
 
 ## 🐍 Python — Sentiment Analysis 
 Customer reviews were analyzed using NLTK's VADER sentiment analyzer
