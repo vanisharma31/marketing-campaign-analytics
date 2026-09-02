@@ -52,29 +52,42 @@ An online retail business has launched several new marketing campaigns but is se
 
 
 ## 🐍 Python — Sentiment Analysis (`python/sentiment_analysis.py`)
+🐍 Python — Sentiment Analysis
 
-This script scores and categorizes every customer review so the Power BI report can break engagement down by sentiment, not just star rating.
+Customer reviews were analyzed using NLTK's VADER sentiment analyzer.
 
-**How it works:**
-- Connects to a local **SQL Server** database (`marketingcampaign`) via `pyodbc` using Windows Authentication, and pulls `ReviewID, CustomerID, ProductID, ReviewDate, Rating, ReviewText` from `dbo.customer_reviews`.
-- Uses **NLTK's VADER** (`SentimentIntensityAnalyzer`) to compute a compound sentiment score (−1 to +1) for each review's text.
-- Combines the text sentiment score **with the numeric star rating** to assign a `SentimentCategory`:
-  - `Positive`, `Negative`, `Neutral`
-  - `Mixed Positive` (e.g. positive text but a lower or neutral rating)
-  - `Mixed Negative` (e.g. negative text but a higher or neutral rating)
-- Buckets the raw sentiment score into readable ranges (`SentimentBucket`): `-1.0 to -0.5`, `-0.49 to 0.0`, `0.0 to 0.49`, `0.5 to 1.0`.
-- Exports the enriched table to `fact_customer_reviews_with_sentiment.csv`, which feeds the **Customer Review Details** page of the Power BI dashboard (Rating by Sentiment Category, Number of Reviews by Sentiment, etc.).
+Sentiment Categories
 
-**Requirements:** `pandas`, `pyodbc`, `nltk` (with the `vader_lexicon` corpus, downloaded automatically on first run), and access to a SQL Server instance with the `marketingcampaign` database.
+Reviews were classified into:
 
-**Run it:**
-```bash
-pip install pandas pyodbc nltk
-python python/sentiment_analysis.py
-```
-> Update the `conn_str` in the script (server name, database, authentication) to match your own SQL Server setup before running.
+🟢 Positive
+🔴 Negative
+⚪ Neutral
+🟢 Mixed Positive
+🔴 Mixed Negative
 
----
+### Sentiment Score Ranges
+
+| Score Range | Interpretation |
+|---|---|
+| **-1.0 to -0.5** | Strong Negative |
+| **-0.49 to 0.0** | Negative / Neutral |
+| **0.0 to 0.49** | Neutral / Positive |
+| **0.5 to 1.0** | Strong Positive |
+Sentiment Score Ranges
+Score Range	Interpretation
+-1.0 to -0.5	Strong Negative
+-0.49 to 0.0	Negative / Neutral
+0.0 to 0.49	Neutral / Positive
+0.5 to 1.0	Strong Positive
+
+The resulting enriched dataset is exported as:
+
+fact_customer_reviews_with_sentiment.csv
+Python Libraries
+pandas
+pyodbc
+nltk
 
 ## 🗂️ Dashboard Structure
 
