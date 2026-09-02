@@ -82,7 +82,7 @@ A sentiment and ratings analysis view:
 - Rating (Average) by Month and Sentiment Category (trend lines).
 - Scatter plot of Rating vs. Review Volume by Customer & Sentiment Category, to spot outlier customers/products.
 - Detailed, filterable review table (Review Date, Customer ID, Review Text, Sentiment, Rating).
-![Customer Review Details](Screenshots/customer_review-_etails.png)
+![Customer Review Details](Screenshots/customer_review_details.png)
 
 
 
