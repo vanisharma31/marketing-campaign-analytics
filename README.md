@@ -51,22 +51,9 @@ An online retail business has launched several new marketing campaigns but is se
 3. **Power BI** (`dashboard/`) imports the enriched data and presents it across three interactive report pages.
 
 
-## 🐍 Python — Sentiment Analysis (`python/sentiment_analysis.py`)
-🐍 Python — Sentiment Analysis
+## 🐍 Python — Sentiment Analysis 
+Customer reviews were analyzed using NLTK's VADER sentiment analyzer
 
-Customer reviews were analyzed using NLTK's VADER sentiment analyzer.
-
-Sentiment Categories
-
-Reviews were classified into:
-
-🟢 Positive
-🔴 Negative
-⚪ Neutral
-🟢 Mixed Positive
-🔴 Mixed Negative
-
-### Sentiment Score Ranges
 
 | Score Range | Interpretation |
 |---|---|
@@ -79,10 +66,10 @@ The resulting enriched dataset is exported as:
 
 fact_customer_reviews_with_sentiment.csv
 
-**Python Libraries**
-pandas
-pyodbc
-nltk
+##### Python Libraries
+- pandas
+- pyodbc
+- nltk
 
 ## 🗂️ Dashboard Structure
 
