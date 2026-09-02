@@ -130,8 +130,6 @@ A sentiment and ratings analysis view:
 - **Average customer rating has also trended down slightly** (3.73 → 3.66), with a consistent share of Negative and Mixed Negative sentiment each year — useful for identifying specific products or experiences to prioritize for improvement.
 - **Product-level conversion rates vary widely**, highlighting opportunities to reallocate marketing spend toward consistently higher-converting products.
 
-*(Explore the dashboard filters to drill into specific years, months, and products for deeper findings.)*
-
 
 
 ## ✅ Goals & Recommended Actions
