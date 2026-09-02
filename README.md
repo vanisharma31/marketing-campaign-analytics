@@ -12,11 +12,11 @@ The project combines SQL Server (data storage & analysis), Python (customer revi
 * <a href="#project-workflow">Project Workflow</a>
 * <a href="#python-sentiment-analysis">Python - Sentiment Analysis</a>
 * <a href="#dashboard-structure">Dashboard Structure</a>
-* <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
-* <a href="#project-structure">Project Structure</a>
 * <a href="#analysis- &amp;-key-findings">Analysis \& Key Findings</a>
 * <a href="#power-bi-dashboards">Power BI Dashboards</a>
-* <a href="#final-recommendations">Final Recommendations</a>
+* <a href="#Goals-&amp;-recommendations">Final Recommendations</a>
+* <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
+* <a href="#project-structure">Project Structure</a>
 * <a href="#author- &amp;-contact">Author \& Contact</a>
 
 
@@ -185,8 +185,7 @@ A sentiment and ratings analysis view:
 - **Product-level conversion rates vary widely**, highlighting opportunities to reallocate marketing spend toward consistently higher-converting products.
 
 
-
-## ✅ Goals & Recommended Actions
+<h2><a class="anchor" id="goals- &amp; -recommended-actions"></a> ✅Goals &amp; Recommended Actions </h2>
 
 | Goal | Recommended Action |
 |---|---|
@@ -194,6 +193,7 @@ A sentiment and ratings analysis view:
 | **Enhance Customer Engagement** | **Revitalize the content strategy** — to turn around declining views and low interaction rates, experiment with more engaging formats such as interactive videos or user-generated content. Boost engagement further by optimizing call-to-action placement in social media and blog content, particularly during historically lower-engagement months (September–December). |
 | **Improve Customer Feedback Scores** | **Address mixed and negative feedback** — implement a feedback loop where mixed and negative reviews are analyzed to identify common issues. Develop improvement plans to address these concerns, follow up with dissatisfied customers to resolve issues and encourage re-rating, aiming to move average ratings closer to the 4.0 target. |
 
+<h2><a class="anchor" id="tools- &amp; -technologies"></a> 🛠️ Tools &amp; Technologies </h2>
 ## 🛠️ Tools & Technologies
 
 | Technology | Usage |
@@ -209,8 +209,7 @@ A sentiment and ratings analysis view:
 | 🌐 Git & GitHub | Version control and project management |
 
 
-
-## 📁 Project Structure
+<h2><a class="anchor" id="project-structure"></a> 📁Project Structure </h2>
 
 ```text
 marketing-campaign-analytics/
