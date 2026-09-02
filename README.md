@@ -10,6 +10,7 @@ The project combines SQL Server (data storage & analysis), Python (customer revi
 * <a href="#business-problem">Business Problem</a>
 * <a href="#project-goals">Project Goals</a>
 * <a href="#project-workflow">Project Workflow</a>
+* <a href="#sql-server-data-preparation- &amp; -analysis">SQl Server Data Preparation &amp; Analysis</a>
 * <a href="#python-sentiment-analysis">Python - Sentiment Analysis</a>
 * <a href="#dashboard-structure">Dashboard Structure</a>
 * <a href="#key-insights">Key Insights</a>
@@ -91,7 +92,16 @@ The project follows an end-to-end data analytics workflow:
 ```
 
 
-<h2><a class="anchor" id="python-sentiment-analysis"></a> 🐍 Python — Sentiment Analysis </h2>
+<h2><a class="anchor" id="sql-server-data-preparation- &amp; -analysis"></a> 🗄️ SQL Server - Data Preparation &amp; Analysis </h2>
+Used SQL Server to clean, transform, integrate, and analyze marketing data.
+
+- Cleaned duplicates, missing values, inconsistent text, and dates.
+- Used JOINs to combine customer and geographic data.
+- Created price categories using CASE statements.
+- Used CTEs and window functions for deduplication and missing-value handling.
+- Prepared analysis-ready datasets for Python and Power BI.
+
+<h2><a class="anchor" id="python-sentiment-analysis"></a> 🐍 Python - Sentiment Analysis </h2>
 Customer reviews were analyzed using NLTK's VADER sentiment analyzer
 
 
