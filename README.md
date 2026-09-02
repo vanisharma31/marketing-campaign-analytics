@@ -145,16 +145,48 @@ A sentiment and ratings analysis view:
 
 ## 🛠️ Tools & Technologies
 ```
-Technology	Usage
-🗄️ SQL Server	Data storage, cleaning, transformation, and analysis
-🐍 Python	Customer review sentiment analysis
-🐼 Pandas	Data manipulation and processing
-🔌 PyODBC	SQL Server–Python connection
-💬 NLTK / VADER	Sentiment analysis
-📊 Power BI	Data modeling, DAX, KPI analysis, and dashboard development
-🔄 Power Query	Data transformation
-📗 Excel	Data preparation and validation
-🌐 Git & GitHub	Version control and project management
+<table>
+  <tr>
+    <th>Technology</th>
+    <th>Usage</th>
+  </tr>
+  <tr>
+    <td>🗄️ SQL Server</td>
+    <td>Data storage, cleaning, transformation, and analysis</td>
+  </tr>
+  <tr>
+    <td>🐍 Python</td>
+    <td>Customer review sentiment analysis</td>
+  </tr>
+  <tr>
+    <td>🐼 Pandas</td>
+    <td>Data manipulation and processing</td>
+  </tr>
+  <tr>
+    <td>🔌 PyODBC</td>
+    <td>SQL Server–Python connection</td>
+  </tr>
+  <tr>
+    <td>💬 NLTK / VADER</td>
+    <td>Sentiment analysis</td>
+  </tr>
+  <tr>
+    <td>📊 Power BI</td>
+    <td>Data modeling, DAX, KPI analysis, and dashboard development</td>
+  </tr>
+  <tr>
+    <td>🔄 Power Query</td>
+    <td>Data transformation</td>
+  </tr>
+  <tr>
+    <td>📗 Excel</td>
+    <td>Data preparation and validation</td>
+  </tr>
+  <tr>
+    <td>🌐 Git &amp; GitHub</td>
+    <td>Version control and project management</td>
+  </tr>
+</table>
 
 
 
