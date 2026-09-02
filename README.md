@@ -144,6 +144,7 @@ A sentiment and ratings analysis view:
 
 
 ## 🛠️ Tools & Technologies
+```
 Technology	Usage
 🗄️ SQL Server	Data storage, cleaning, transformation, and analysis
 🐍 Python	Customer review sentiment analysis
