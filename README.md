@@ -74,17 +74,12 @@ Reviews were classified into:
 | **-0.49 to 0.0** | Negative / Neutral |
 | **0.0 to 0.49** | Neutral / Positive |
 | **0.5 to 1.0** | Strong Positive |
-Sentiment Score Ranges
-Score Range	Interpretation
--1.0 to -0.5	Strong Negative
--0.49 to 0.0	Negative / Neutral
-0.0 to 0.49	Neutral / Positive
-0.5 to 1.0	Strong Positive
 
 The resulting enriched dataset is exported as:
 
 fact_customer_reviews_with_sentiment.csv
-Python Libraries
+
+**Python Libraries**
 pandas
 pyodbc
 nltk
