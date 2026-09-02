@@ -179,20 +179,20 @@ A sentiment and ratings analysis view:
 
 | Goal | Recommended Action |
 |---|---|
-| **Increase Conversion Rates** | **Target high-performing product categories** — focus marketing efforts on products with demonstrated high conversion rates, such as Kayaks, Ski Boots, and Baseball Gloves. Run seasonal promotions or personalized campaigns during peak months (e.g. January and September) to capitalize on these trends. |
+| **Increase Conversion Rates** | **Target high-performing product categories** — focus marketing efforts on products with demonstrated high conversion rates, such as Kayaks, Ski Boots and Baseball Gloves. Run seasonal promotions or personalized campaigns during peak months (e.g. January and September) to capitalize on these trends. |
 | **Enhance Customer Engagement** | **Revitalize the content strategy** — to turn around declining views and low interaction rates, experiment with more engaging formats such as interactive videos or user-generated content. Boost engagement further by optimizing call-to-action placement in social media and blog content, particularly during historically lower-engagement months (September–December). |
-| **Improve Customer Feedback Scores** | **Address mixed and negative feedback** — implement a feedback loop where mixed and negative reviews are analyzed to identify common issues. Develop improvement plans to address these concerns, follow up with dissatisfied customers to resolve issues, and encourage re-rating, aiming to move average ratings closer to the 4.0 target. |
+| **Improve Customer Feedback Scores** | **Address mixed and negative feedback** — implement a feedback loop where mixed and negative reviews are analyzed to identify common issues. Develop improvement plans to address these concerns, follow up with dissatisfied customers to resolve issues and encourage re-rating, aiming to move average ratings closer to the 4.0 target. |
 
 ## 🛠️ Tools & Technologies
 
 | Technology | Usage |
 | :--- | :--- |
-| 🗄️ SQL Server | Data storage, cleaning, transformation, and analysis |
+| 🗄️ SQL Server | Data storage, cleaning, transformation and analysis |
 | 🐍 Python | Customer review sentiment analysis |
 | 🐼 Pandas | Data manipulation and processing |
 | 🔌 PyODBC | SQL Server–Python connection |
 | 💬 NLTK / VADER | Sentiment analysis |
-| 📊 Power BI | Data modeling, DAX, KPI analysis, and dashboard development |
+| 📊 Power BI | Data modeling, DAX, KPI analysis and dashboard development |
 | 🔄 Power Query | Data transformation |
 | 📗 Excel | Data preparation and validation |
 | 🌐 Git & GitHub | Version control and project management |
